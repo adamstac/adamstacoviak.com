@@ -4,7 +4,7 @@ comments: true
 date: 2013-05-31 15:48:21+00:00
 layout: post
 slug: on-making-your-own-club
-title: On 'making your own club'...
+title: On “making your own club”...
 wordpress_id: 1033
 categories:
 - Links

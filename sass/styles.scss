@@ -11,7 +11,7 @@
 @import "libraries/symbolset-standard";
 
 // Breakpoints
-$desktop-page-width: 700px;
+$desktop-page-width: 650px;
 
 // Partials
 @import "partials/syntax";
@@ -34,10 +34,10 @@ a {
 }
 
 body {
-  @include proxima-nova-400;
+  font-family: 'PT Serif', serif;
   background: #fff;
   color: #292929;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -48,7 +48,7 @@ body {
 #wrapper {
   width: $desktop-page-width;
   margin: 0 auto;
-  padding: 95px 0 80px 0;
+  padding: 50px 0 80px 0;
 }
 
 @media (max-width: $desktop-page-width) {
@@ -74,7 +74,7 @@ body {
   margin-bottom: 80px;
   h2 {
     color: #292929;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 15px;
     // text-transform: uppercase;
@@ -84,8 +84,7 @@ body {
   }
   p {
     color: #777;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 18px;
     line-height: 1.5;
     a {
       color: #0085BD;
@@ -233,23 +232,23 @@ body {
     // .post.format-link
     &.format-image { }
 
-    // .post .post-title
-    .post-title {
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 20px;
-      // text-transform: uppercase;
-      a:hover {
-        background-color: #eee;
-        // color: #0085BD;
-      }
-    }
-
     // .post headings
     h1, h2, h3, h4, h5, h6 {
       color: #292929;
     }
 
+  }
+}
+
+// .post .post-title
+.post-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  // text-transform: uppercase;
+  a:hover {
+    background-color: #eee;
+    // color: #0085BD;
   }
 }
 
@@ -354,7 +353,7 @@ body {
   }
   p, li {
     line-height: 1.8;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
   }
   p code, li code {
