@@ -1,0 +1,175 @@
+//
+// Font weights
+//
+// proxima-nova-black
+// proxima-nova-black-otalic
+// proxima-nova-bold
+// proxima-nova-bold-italic
+// proxima-nova-extrabold
+// proxima-nova-extrabold-italic
+// proxima-nova-light
+// proxima-nova-light-italic
+// proxima-nova-regular
+// proxima-nova-regular-italic
+// proxima-nova-semibold
+// proxima-nova-semibold-italic
+// proxima-nova-thin
+// proxima-nova-thin-italic
+//
+// Be sure to set the Compass `fonts_dir` variable
+// Example: fonts_dir = 'fonts'
+
+
+@include font-face(
+  "proxima-nova-black",
+  font-files(
+    "proxima-nova/proxima-nova-black/proxima-nova-black.woff", woff,
+    "proxima-nova/proxima-nova-black/proxima-nova-black.ttf", truetype,
+    "proxima-nova/proxima-nova-black/proxima-nova-black.svg", svg),
+  "proxima-nova/proxima-nova-black/proxima-nova-black.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-black-italic",
+  font-files(
+    "proxima-nova/proxima-nova-black-italic/proxima-nova-black-italic.woff", woff,
+    "proxima-nova/proxima-nova-black-italic/proxima-nova-black-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-black-italic/proxima-nova-black-italic.svg", svg),
+  "proxima-nova/proxima-nova-black-italic/proxima-nova-black-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-bold",
+  font-files(
+    "proxima-nova/proxima-nova-bold/proxima-nova-bold.woff", woff,
+    "proxima-nova/proxima-nova-bold/proxima-nova-bold.ttf", truetype,
+    "proxima-nova/proxima-nova-bold/proxima-nova-bold.svg", svg),
+  "proxima-nova/proxima-nova-bold/proxima-nova-bold.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-bold-italic",
+  font-files(
+    "proxima-nova/proxima-nova-bold-italic/proxima-nova-bold-italic.woff", woff,
+    "proxima-nova/proxima-nova-bold-italic/proxima-nova-bold-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-bold-italic/proxima-nova-bold-italic.svg", svg),
+  "proxima-nova/proxima-nova-bold-italic/proxima-nova-bold-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-extrabold",
+  font-files(
+    "proxima-nova/proxima-nova-extrabold/proxima-nova-extrabold.woff", woff,
+    "proxima-nova/proxima-nova-extrabold/proxima-nova-extrabold.ttf", truetype,
+    "proxima-nova/proxima-nova-extrabold/proxima-nova-extrabold.svg", svg),
+  "proxima-nova/proxima-nova-extrabold/proxima-nova-extrabold.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-extrabold-italic",
+  font-files(
+    "proxima-nova/proxima-nova-extrabold-italic/proxima-nova-extrabold-italic.woff", woff,
+    "proxima-nova/proxima-nova-extrabold-italic/proxima-nova-extrabold-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-extrabold-italic/proxima-nova-extrabold-italic.svg", svg),
+  "proxima-nova/proxima-nova-extrabold-italic/proxima-nova-extrabold-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-light",
+  font-files(
+    "proxima-nova/proxima-nova-light/proxima-nova-light.woff", woff,
+    "proxima-nova/proxima-nova-light/proxima-nova-light.ttf", truetype,
+    "proxima-nova/proxima-nova-light/proxima-nova-light.svg", svg),
+  "proxima-nova/proxima-nova-light/proxima-nova-light.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-light-italic",
+  font-files(
+    "proxima-nova/proxima-nova-light-italic/proxima-nova-light-italic.woff", woff,
+    "proxima-nova/proxima-nova-light-italic/proxima-nova-light-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-light-italic/proxima-nova-light-italic.svg", svg),
+  "proxima-nova/proxima-nova-light-italic/proxima-nova-light-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-regular",
+  font-files(
+    "proxima-nova/proxima-nova-regular/proxima-nova-regular.woff", woff,
+    "proxima-nova/proxima-nova-regular/proxima-nova-regular.ttf", truetype,
+    "proxima-nova/proxima-nova-regular/proxima-nova-regular.svg", svg),
+  "proxima-nova/proxima-nova-regular/proxima-nova-regular.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-regular-italic",
+  font-files(
+    "proxima-nova/proxima-nova-regular-italic/proxima-nova-regular-italic.woff", woff,
+    "proxima-nova/proxima-nova-regular-italic/proxima-nova-regular-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-regular-italic/proxima-nova-regular-italic.svg", svg),
+  "proxima-nova/proxima-nova-regular-italic/proxima-nova-regular-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-semibold",
+  font-files(
+    "proxima-nova/proxima-nova-semibold/proxima-nova-semibold.woff", woff,
+    "proxima-nova/proxima-nova-semibold/proxima-nova-semibold.ttf", truetype,
+    "proxima-nova/proxima-nova-semibold/proxima-nova-semibold.svg", svg),
+  "proxima-nova/proxima-nova-semibold/proxima-nova-semibold.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-semibold-italic",
+  font-files(
+    "proxima-nova/proxima-nova-semibold-italic/proxima-nova-semibold-italic.woff", woff,
+    "proxima-nova/proxima-nova-semibold-italic/proxima-nova-semibold-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-semibold-italic/proxima-nova-semibold-italic.svg", svg),
+  "proxima-nova/proxima-nova-semibold-italic/proxima-nova-semibold-italic.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-thin",
+  font-files(
+    "proxima-nova/proxima-nova-thin/proxima-nova-thin.woff", woff,
+    "proxima-nova/proxima-nova-thin/proxima-nova-thin.ttf", truetype,
+    "proxima-nova/proxima-nova-thin/proxima-nova-thin.svg", svg),
+  "proxima-nova/proxima-nova-thin/proxima-nova-thin.eot",
+  normal,
+  normal
+  );
+
+@include font-face(
+  "proxima-nova-thin-italic",
+  font-files(
+    "proxima-nova/proxima-nova-thin-italic/proxima-nova-thin-italic.woff", woff,
+    "proxima-nova/proxima-nova-thin-italic/proxima-nova-thin-italic.ttf", truetype,
+    "proxima-nova/proxima-nova-thin-italic/proxima-nova-thin-italic.svg", svg),
+  "proxima-nova/proxima-nova-thin-italic/proxima-nova-thin-italic.eot",
+  normal,
+  normal
+  );

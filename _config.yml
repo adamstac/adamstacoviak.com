@@ -1,0 +1,4 @@
+name: Adam Stacoviak
+markdown: redcarpet
+pygments: true
+permalink: /:title/
