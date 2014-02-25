@@ -1,4 +1,3 @@
-adamstacoviak.com
-=================
+# Self
 
-The source code for adamstacoviak.com
+The source code for [adamstacoviak.com](http://adamstacoviak.com/)
