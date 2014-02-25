@@ -1,6 +1,6 @@
 // CSS Reset
 @import "compass/reset";
-// @import "libraries/normalize";
+@import "libraries/normalize";
 
 // Compass Stuff
 @import "compass/utilities";
@@ -83,23 +83,16 @@ body {
     }
   }
   p {
-    color: #555;
+    color: #777;
     font-size: 15px;
     font-weight: 300;
-    line-height: 1.6;
-    &:first-of-type {
-      margin-bottom: 12px;
-    }
-  }
-  a {
-    border-bottom: 1px solid #ccc;
-    color: inherit;
-    padding-bottom: 1px;
-    text-decoration: none;
-    &:hover {
-      background: #eee;
-      border-bottom: 1px solid #eee;
-      color: inherit;
+    line-height: 1.5;
+    a {
+      color: #0085BD;
+      text-decoration: none;
+      &:hover {
+        color: #60A5DD;
+      }
     }
   }
 }
@@ -240,6 +233,18 @@ body {
     // .post.format-link
     &.format-image { }
 
+    // .post .post-title
+    .post-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      // text-transform: uppercase;
+      a:hover {
+        background-color: #eee;
+        // color: #0085BD;
+      }
+    }
+
     // .post headings
     h1, h2, h3, h4, h5, h6 {
       color: #292929;
@@ -325,23 +330,20 @@ body {
   }
 }
 
-// .post-title
-.post-title {
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  // text-transform: uppercase;
-  a:hover {
-    background-color: #eee;
-    // color: #0085BD;
-  }
-}
-
 .post-content {
   color: #555;
   h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    // text-transform: uppercase;
+  }
+  h2 {
     font-size: 16px;
-    font-weight: 700;
+    margin: 30px 0 20px 0;
+  }
+  h3 {
+    font-size: 14px;
     margin: 30px 0 20px 0;
   }
   p {
@@ -351,8 +353,8 @@ body {
     }
   }
   p, li {
-    line-height: 1.6;
-    font-size: 15px;
+    line-height: 1.8;
+    font-size: 14px;
     font-weight: 300;
   }
   p code, li code {
@@ -415,7 +417,8 @@ body {
     padding-bottom: 0;
   }
   em, mark {
-    background-color: #fffed6;
+    background-color: #fffeca;
+    color: #666;
   }
   strong {
     color: #000;
