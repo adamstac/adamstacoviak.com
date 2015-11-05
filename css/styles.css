@@ -1496,10 +1496,10 @@ body.blog .sticky-bar li span.link-home {
 }
 
 #footer {
+  background: #f5f5f5;
   color: #777;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 0 0 80px 0;
+  font-size: 14px;
+  padding: 50px 0;
   text-align: left;
 }
 #footer p {
