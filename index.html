@@ -7,7 +7,11 @@ title: Adam Stacoviak
   {% for post in site.posts %}
     <div class="post">
       <h2 class="post-title">
-        <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}">{{ post.title }}</a>&nbsp;<a href="{{ post.url }}" rel="bookmark">#</a>
+        {% else %}
+          <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+        {% endif %}
       </h2>
       <div class="post-content">
         {{ post.content }}

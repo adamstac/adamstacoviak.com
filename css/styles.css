@@ -51,7 +51,7 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -175,11 +175,10 @@ table {
 @font-face {
   font-family: "SSStandard";
   src: url('../fonts/symbolset/ss-standard.eot');
-  src: url('../fonts/symbolset/ss-standard.eot?#iefix') format('eot'), url('../fonts/symbolset/ss-standard.woff') format('woff'), url('../fonts/symbolset/ss-standard.ttf') format('truetype'), url('../fonts/symbolset/ss-standard.svg#SSStandard') format('svg');
+  src: url('../fonts/symbolset/ss-standard.eot?#iefix') format('embedded-opentype'), url('../fonts/symbolset/ss-standard.woff') format('woff'), url('../fonts/symbolset/ss-standard.ttf') format('truetype'), url('../fonts/symbolset/ss-standard.svg#SSStandard') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 .ss-icon {
   font-family: "SSStandard";
   font-style: normal;
@@ -877,23 +876,23 @@ table {
 }
 
 .str {
-  color: #a5c261;
+  color: #A5C261;
 }
 
 .kwd {
-  color: #a1c2da;
+  color: #A1C2DA;
 }
 
 .com {
-  color: #666666;
+  color: #666;
 }
 
 .typ {
-  color: #6e9cbe;
+  color: #6E9CBE;
 }
 
 .lit {
-  color: #c28439;
+  color: #C28439;
 }
 
 .pun {
@@ -905,24 +904,24 @@ table {
 }
 
 .tag {
-  color: #e8bf6a;
+  color: #E8BF6A;
 }
 
 .atn {
-  color: #c8a550;
+  color: #C8A550;
 }
 
 .atv {
-  color: #a5c261;
+  color: #A5C261;
 }
 
 .dec {
-  color: #c28439;
+  color: #C28439;
 }
 
 pre.prettyprint {
   padding: 2px;
-  border: 1px solid #888888;
+  border: 1px solid #888;
 }
 
 ol.linenums {
@@ -934,52 +933,52 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
   list-style: none;
 }
 li.L1, li.L3, li.L5, li.L7, li.L9 {
-  background: #eeeeee;
+  background: #eee;
 }
 
 @media print {
   .str {
-    color: #006600;
+    color: #060;
   }
 
   .kwd {
-    color: #000066;
+    color: #006;
     font-weight: bold;
   }
 
   .com {
-    color: #660000;
+    color: #600;
     font-style: italic;
   }
 
   .typ {
-    color: #440044;
+    color: #404;
     font-weight: bold;
   }
 
   .lit {
-    color: #004444;
+    color: #044;
   }
 
   .pun {
-    color: #444400;
+    color: #440;
   }
 
   .pln {
-    color: black;
+    color: #000;
   }
 
   .tag {
-    color: #000066;
+    color: #006;
     font-weight: bold;
   }
 
   .atn {
-    color: #440044;
+    color: #404;
   }
 
   .atv {
-    color: #006600;
+    color: #060;
   }
 }
 a {
@@ -1003,12 +1002,12 @@ body {
 }
 
 #wrapper {
-  width: 650px;
+  width: 620px;
   margin: 0 auto;
   padding: 50px 0 80px 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 620px) {
   #wrapper {
     box-sizing: border-box;
     width: 100%;
@@ -1095,7 +1094,6 @@ body {
   width: 100%;
 }
 .post-index ul li.post span {
-  display: inline;
   float: left;
 }
 .post-index ul li.post span.post-date {
@@ -1157,6 +1155,7 @@ body {
 .post-title {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
 .post-title a:hover {
@@ -1281,8 +1280,8 @@ body {
   margin-bottom: 0;
 }
 .post-content pre code {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace;
   display: block;
@@ -1346,21 +1345,17 @@ body {
   padding-left: 5px;
 }
 .post-content img {
-  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
   margin-bottom: 15px;
   max-width: 100%;
 }
 .post-content img.alignright {
-  display: inline;
   float: right;
   margin: 5px 0 15px 25px;
 }
 .post-content img.alignleft {
-  display: inline;
   float: left;
   margin: 5px 25px 15px 0;
 }
@@ -1376,7 +1371,6 @@ body {
 }
 
 .post-sidebar {
-  display: inline;
   float: right;
   display: none;
   width: 145px;
@@ -1454,20 +1448,16 @@ body.blog .sticky-bar li span.link-home {
   width: 800px;
 }
 .sticky-bar ul li {
-  display: inline;
   float: left;
   margin-right: 4px;
 }
 .sticky-bar ul li.edit-post-link {
-  display: inline;
   float: right;
   display: none;
 }
 .sticky-bar ul li a {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   background: white;
   background: rgba(255, 255, 255, 0.85);
@@ -1504,7 +1494,7 @@ body.blog .sticky-bar li span.link-home {
 }
 #footer p {
   margin: 0 auto;
-  width: 650px;
+  width: 620px;
 }
 #footer p a {
   color: #0085BD;
@@ -1516,8 +1506,8 @@ body.blog .sticky-bar li span.link-home {
 
 @media (max-width: 800px) {
   #footer p {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     padding: 0 20px;

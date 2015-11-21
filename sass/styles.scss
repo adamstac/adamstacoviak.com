@@ -11,7 +11,7 @@
 @import "libraries/symbolset-standard";
 
 // Breakpoints
-$desktop-page-width: 650px;
+$desktop-page-width: 620px;
 
 // Partials
 @import "partials/syntax";
@@ -244,6 +244,7 @@ body {
 .post-title {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.2;
   margin-bottom: 20px;
   // text-transform: uppercase;
   a:hover {

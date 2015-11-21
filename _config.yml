@@ -21,3 +21,11 @@ github_username:  adamstac
 markdown: kramdown
 highlighter: true
 permalink: /:title/
+
+# Predefined settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string means all files in the project
+    values:
+      layout: "post"

@@ -27,12 +27,12 @@ Sarah:
 
 
 
-> 
-  
-> 
+>
+
+>
 > In the future, we're all working for small companies. Does that mean that everyone has to work harder? 'Cause people at startups work a lot harder than people at big companies (on average).
-> 
-> 
+>
+>
 
 
 
@@ -45,12 +45,12 @@ Naval:
 
 
 
-> 
-  
-> 
+>
+
+>
 > Yea, but when you're working it your way, there's less bullshit (hopefully). When you're doing it your own way, it doesn't feel like work.
-> 
-> 
+>
+>
 
 
 

@@ -21,12 +21,12 @@ Like most web developers, I prefer to save time by automating repetitive tasks. 
 
 
 
-> 
-  
-> 
+>
+
+>
 > Laziness is a trait of a good developer.
-> 
-> 
+>
+>
 
 
 
@@ -67,47 +67,47 @@ This is a simple Rakefile I wrote that helps me to do all this in simple and con
 
 
 
-    
+
     <code>require "rubygems"
     require "bundler"
     Bundler.setup
-    
+
     # Settings for Compass and rsync deployment
     css_dir               = "sass"
     theme                 = "theme-name"
     ssh_user              = "user@domain.com" # for rsync deployment
     remote_root           = "~/path/to/remote/" # for rsync deployment
-    
+
     namespace :styles do
-      
+
       desc "Clear the styles"
       task :clear => ["compile:clear"]
-      
+
       desc "Compile new styles"
       task :compile => ["compile:default"]
-    
+
       namespace :compile do
-        
+
         task :clear do
           puts "*** Clearing styles ***"
           system "rm -Rfv #{css_dir}/*"
         end
-    
+
         task :default => :clear do
           puts "*** Compiling styles ***"
           system "compass compile"
         end
-    
+
         desc "Compile new styles for production"
         task :production => :clear do
           puts "*** Compiling styles ***"
           system "compass compile --output-style compressed --force"
         end
-    
+
       end
-      
+
     end
-    
+
     desc "Clears and generates new styles, builds and deploys"
     task :deploy do
       puts "*** Deploying the site ***"
