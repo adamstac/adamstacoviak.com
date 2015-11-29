@@ -1267,9 +1267,14 @@ body {
   font-size: 12px;
   padding: 2px 3px;
 }
+.post-content figure[class^="highlight"] {
+  margin-bottom: 20px;
+}
+.post-content figure[class^="highlight"]:last-child {
+  margin-bottom: 0;
+}
 .post-content pre {
   background: #000;
-  border: 2px solid #e0e0e0;
   border-radius: 2px;
   clear: both;
   color: white;

@@ -19,7 +19,7 @@ github_username:  adamstac
 
 # Build settings
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 permalink: /:title/
 
 # Predefined settings
