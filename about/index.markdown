@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: page
 ---
 
 This is my humble little blog. It is a place for me to share my thoughts on the web, podcasting, insights, links and more. Because I'm reluctant to share too much of my private personal life with the public, this blog will mostly contain my personal perspective on my professional life.

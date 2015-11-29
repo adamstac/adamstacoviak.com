@@ -20,7 +20,7 @@ github_username:  adamstac
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: /:title/
+permalink: /:title
 
 # Gems
 gems:
