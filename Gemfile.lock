@@ -25,6 +25,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.3.1)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-watch (1.3.0)
@@ -71,6 +72,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   jekyll
+  jekyll-feed
   octopress (~> 3.0)
   pygments.rb
   rake
