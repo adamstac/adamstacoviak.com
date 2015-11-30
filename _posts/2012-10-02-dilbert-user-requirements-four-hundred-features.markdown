@@ -8,6 +8,6 @@ layout: post
 
 Don't be this person.
 
-![Dilbert comic strip for 04/14/2001](http://adamstacoviak.com/wp-content/uploads/2012/10/2118.strip_.gif)
+![Dilbert comic strip for 04/14/2001](uploads/2012/10/2118.strip_.gif)
 
 Adding "easy to use" to the list of desired features does not ensure what you've asked for will be "easy to use."

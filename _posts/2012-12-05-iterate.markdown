@@ -8,6 +8,6 @@ layout: post
 
 The pursuit of perfection takes time, and patience. Iterate.
 
-![Apple iMac Evolution](http://adamstacoviak.com/wp-content/uploads/2012/12/apple-imac-evolution.png)
+![Apple iMac Evolution](uploads/2012/12/apple-imac-evolution.png)
 
 > The first iMac was a revolution: An all-in-one computer that put everything — display, processor, graphics, storage, memory, and more — inside one simple, stylish enclosure. Countless innovations later, we've raised the bar yet again. The new iMac includes the most advanced, most brilliant desktop display we've ever built, and it's filled with the latest high-performance technologies. Yet it's just 5 mm thin at its edge with up to 40 percent less volume than the previous generation. To do all that required unprecedented feats of engineering — and imagination. We invented new technologies, pioneered new manufacturing techniques, and devised all-new ways to do more in less space.

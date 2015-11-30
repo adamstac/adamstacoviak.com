@@ -8,7 +8,7 @@ layout: post
 
 I've had the honor of having Ryan on my podcasts [one](http://web20show.com/2010/02/episode-68-carsonified-ryan-carson/), [two](http://5by5.tv/founderstalk/4), [three](http://5by5.tv/founderstalk/27) times.
 
-![Ryan Carson on stage](http://adamstacoviak.com/wp-content/uploads/2012/09/ryan-carson-on-stage.png)
+![Ryan Carson on stage](uploads/2012/09/ryan-carson-on-stage.png)
 
 > I've started tweeting a lot less and started just . . . I disengaged from social media a lot and it's because I feel like I'm not focusing on the people who will matter to me when I die.
 > Maybe it's having kids or something that does this to you but I'm like, "Oh my gosh. There's a core set of people in my life who I care about and if I do not connect with them, and I connect to my Twitter followers, what the fuck am I doing? It's just crazy."

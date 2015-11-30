@@ -1,5 +1,5 @@
 ---
-title: Ryan Singer's shorthand for designing user flows
+title: Ryan Singer's shorthand for user flows
 slug: ryan-singers-shorthand-for-designing-user-flows
 date: 2012-09-17 06:00:56+00:00
 external_url: https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows
@@ -8,7 +8,7 @@ layout: post
 
 This shorthand method not only saves time, but also keeps things simple.
 
-![Shorthand UI Flow](http://adamstacoviak.com/wp-content/uploads/2012/09/shorthand-ui-flow-template.png)
+![Shorthand UI Flow](uploads/2012/09/shorthand-ui-flow-template.png)
 
 > Flows are just as important to good interfaces as individual screens are. Customers don’t land on screens from out of nowhere. Specific sequences of actions lead customers through your app as they try to accomplish their tasks.
 

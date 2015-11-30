@@ -8,7 +8,8 @@
 @import "compass/css3";
 
 // Libraries
-@import "libraries/symbolset-standard";
+// @import "libraries/symbolset-standard";
+@import "libraries/syntax";
 
 // Breakpoints
 $desktop-page-width: 620px;
@@ -31,6 +32,10 @@ a {
   &:focus, &:active {
     outline: none;
   }
+}
+
+* {
+  @include box-sizing(border-box);
 }
 
 body {
@@ -70,18 +75,22 @@ body {
   z-index: 1000;
 }
 
-#header {
+.site_header {
   margin-bottom: 80px;
-  h2 {
-    color: #292929;
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    // text-transform: uppercase;
-    a:hover {
-      text-decoration: none;
-    }
+}
+
+.site_title {
+  @include font-merriweather;
+  color: #292929;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  a:hover {
+    text-decoration: none;
   }
+}
+
+.site_about {
   p {
     color: #777;
     font-size: 18px;
@@ -95,8 +104,6 @@ body {
     }
   }
 }
-
-#main {  }
 
 // A posts index
 .post-index {
@@ -187,19 +194,18 @@ body {
 
     // .post cascading styles
     $post-gutter: 60px;
-    margin-bottom: $post-gutter;
-    padding-bottom: $post-gutter;
+    margin-bottom: 100px;
 
     // .post:after
-    &:after {
-      position: relative;
-      top: $post-gutter;
-      background-color: #eee;
-      content: "";
-      display: block;
-      height: 2px;
-      width: 100%;
-    }
+    // &:after {
+    //   position: relative;
+    //   top: $post-gutter;
+    //   background-color: #eee;
+    //   content: "";
+    //   display: block;
+    //   height: 2px;
+    //   width: 100%;
+    // }
 
     // .post:last-child
     // &:last-child, &:last-of-type {
@@ -237,19 +243,6 @@ body {
       color: #292929;
     }
 
-  }
-}
-
-// .post .post-title
-.post-title {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  // text-transform: uppercase;
-  a:hover {
-    background-color: #eee;
-    // color: #0085BD;
   }
 }
 
@@ -330,7 +323,38 @@ body {
   }
 }
 
-.post-content {
+.post__header {
+  margin-bottom: 30px;
+}
+
+.post__title {
+  @include font-merriweather;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  a:hover {
+    background-color: #eee;
+  }
+}
+
+.post__arrow {
+  color: #ccc;
+  cursor: default;
+  font-weight: normal;
+}
+
+.post__meta {
+  @include font-merriweather;
+  color: #888;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.post__permalink {
+  color: #000;
+}
+
+.post__content {
   color: #555;
   h2, h3, h4, h5, h6 {
     font-size: 14px;
@@ -355,7 +379,6 @@ body {
   p, li {
     line-height: 1.8;
     font-size: 18px;
-    font-weight: 300;
   }
   p code, li code {
     background-color: white;
@@ -366,41 +389,36 @@ body {
     font-size: 12px;
     padding: 2px 3px;
   }
+
+  // Code highlighting
   figure[class^="highlight"] {
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    margin-bottom: 25px;
     margin-bottom: 20px;
     &:last-child {
       margin-bottom: 0;
     }
   }
   pre {
-    background: #000;
+    background: #f7f7f7;
     border-radius: 2px;
     clear: both;
-    color: white;
-    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 1.4;
     overflow: auto;
-    &:last-child {
-      margin-bottom: 0;
-    }
+    padding: 5px 10px;
+    word-break: normal;
   }
   pre code {
-    @include box-sizing(border-box);
     @include font-monospace;
-    display: block;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 5px 10px;
-    width: 100%;
-    a {
-      color: white;
-      font-weight: normal;
-      border: none;
-      &:hover {
-        border: inherit;
-        color: white;
-      }
-    }
+    display: inline;
+    line-height: inherit;
+    max-width: initial;
+    word-wrap: normal;
   }
+
+  // Link styles
   a {
     border-bottom: 1px solid #ccc;
     color: inherit;
@@ -421,7 +439,11 @@ body {
     border-bottom: none;
     padding-bottom: 0;
   }
-  em, mark {
+
+  em {
+    font-style: italic;
+  }
+  mark {
     background-color: #fffeca;
     color: #666;
   }
@@ -429,7 +451,7 @@ body {
     color: #000;
   }
   blockquote {
-    border-left: 2px solid #333;
+    border-left: 4px solid #eee;
     margin: 20px 0;
     padding-left: 3.5%;
     width: 100%;
@@ -589,8 +611,7 @@ body.blog .sticky-bar li span.link-home {
   }
 }
 
-#footer {
-  background: #f5f5f5;
+.site_footer {
   color: #777;
   font-size: 14px;
   padding: 50px 0;
@@ -609,7 +630,7 @@ body.blog .sticky-bar li span.link-home {
 }
 
 @media (max-width: 800px) {
-  #footer p {
+  .site_footer p {
     @include box-sizing(border-box);
     width: 100%;
     padding: 0 20px;
@@ -617,7 +638,7 @@ body.blog .sticky-bar li span.link-home {
 }
 
 body.archive.tag {
-  #footer {
+  .site_footer {
     display: none;
   }
 }

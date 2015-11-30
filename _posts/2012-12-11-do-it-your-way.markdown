@@ -1,12 +1,14 @@
 ---
-title: It Doesn't Feel Like Work When You're Doing It Your Own Way
-slug: do-it-your-way
+title: It Doesn't Feel Like Work
+slug: it-doesnt-feel-like-work
 date: 2012-12-11 21:19:19+00:00
 external_url: http://www.youtube.com/watch?feature=player_detailpage&v=rIXx617xVMo#t=326s
 layout: post
 ---
 
-In [this video](http://www.youtube.com/watch?v=rIXx617xVMo&list=PLG7JvYPJw5oOH0Xbtfs_6BLjVE61fkPNa) with [AngelList](https://angel.co/) founder [Naval Ravikant](https://twitter.com/naval), [Sarah Lacy](http://pandodaily.com/author/pandosarahlacy/) asks him about the one thing he believes in that no one else does.
+Let's face it -- when you're doing it your own way, _it doesn't feel like work._
+
+In [this video](http://www.youtube.com/watch?v=rIXx617xVMo&list=PLG7JvYPJw5oOH0Xbtfs_6BLjVE61fkPNa), Sarah Lacy asks AngelList Co-founder Naval Ravikant about the one thing he believes in that no one else does.
 
 Sarah:
 

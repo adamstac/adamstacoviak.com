@@ -38,5 +38,10 @@
 
 @mixin font-monospace {
   // font-family: "Menlo", "Monaco", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-  font-family: "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace;
+  // font-family: "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+}
+
+@mixin font-merriweather {
+  font-family: 'Merriweather Sans', sans-serif;
 }
