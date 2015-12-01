@@ -1,6 +1,7 @@
 _site
+node_modules
 
 # Sass
 
 .sass-cache
-/_drafts
+_drafts

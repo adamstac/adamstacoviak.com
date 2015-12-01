@@ -1,0 +1,26 @@
+{
+  "name": "adamstacoviak.com",
+  "version": "0.0.0",
+  "description": "The personal blog of Adam Stacoviak",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamstac/self.git"
+  },
+  "author": "Adam Stacoviak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamstac/self/issues"
+  },
+  "homepage": "https://github.com/adamstac/self#readme"
+}

@@ -1,11 +1,11 @@
 // CSS Reset
-@import "compass/reset";
-@import "libraries/normalize";
+// @import "compass/reset";
+// @import "libraries/normalize";
 
 // Compass Stuff
-@import "compass/utilities";
-@import "compass/layout";
-@import "compass/css3";
+// @import "compass/utilities";
+// @import "compass/layout";
+// @import "compass/css3";
 
 // Libraries
 // @import "libraries/symbolset-standard";
@@ -19,7 +19,7 @@ $desktop-page-width: 620px;
 @import "partials/typography";
 
 * {
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }
 
 body {
@@ -146,13 +146,13 @@ a {
   ul {
     list-style: none;
     li {
-      @include clearfix;
+      // @include clearfix;
       line-height: 1.5;
       margin-bottom: 10px;
       width: 100%;
       &.post {
         span {
-          @include float-left;
+          // @include float-left;
           &.post-date {
             position: relative;
             right: 15px;
@@ -473,18 +473,18 @@ a {
 
   // embeds
   img {
-    @include border-radius(2px);
+    border-radius: 2px;
     // background: #eeeeee;
     // border: 1px solid #cacaca;
     margin-bottom: 15px;
     // padding: 5px;
     max-width: 100%;
     &.alignright {
-      @include float-right;
+      // @include float-right;
       margin: 5px 0 15px 25px;
     }
     &.alignleft {
-      @include float-left;
+      // @include float-left;
       margin: 5px 25px 15px 0;
     }
     &.aligncenter {
@@ -501,12 +501,12 @@ a {
 }
 
 .post-sidebar {
-  @include float-right;
+  // @include float-right;
   display: none;
   width: 145px;
   #entry-sidebar-primary {
     ul {
-      @include no-bullets;
+      // @include no-bullets;
       li {
         margin-bottom: 8px;
         text-align: center;
@@ -519,7 +519,7 @@ a {
           margin-left: 1px;
         }
         .adhere {
-          @include reset-box-model;
+          // @include reset-box-model;
         }
       }
     }
@@ -569,19 +569,19 @@ body.blog .sticky-bar li span.link-home {
     font-weight: bold;
   }
   ul {
-    @include clearfix;
+    // @include clearfix;
     display: none;
     margin: 0 auto;
     width: 800px;
     li {
-      @include float-left;
+      // @include float-left;
       margin-right: 4px;
       &.edit-post-link {
-        @include float-right;
+        // @include float-right;
         display: none;
       }
       a {
-        @include border-radius(3px);
+        border-radius: 3px;
         background: white;
         background: rgba(255, 255, 255, 0.85);
         border: 1px solid #d5d5d5;
@@ -631,7 +631,7 @@ body.blog .sticky-bar li span.link-home {
 
 @media (max-width: 800px) {
   .site_footer p {
-    @include box-sizing(border-box);
+    box-sizing: border-box;
     width: 100%;
     padding: 0 20px;
   }
