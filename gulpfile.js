@@ -2,10 +2,12 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var plumber = require('gulp-plumber');
+var run = require('gulp-run');
 var options = {};
 
 options.sass = {
-  outputStyle: 'expanded'
+  outputStyle: 'expanded',
+  includePaths: ['./node_modules']
 };
 
 gulp.task('styles', function(){

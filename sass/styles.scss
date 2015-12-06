@@ -1,11 +1,5 @@
 // CSS Reset
-// @import "compass/reset";
-// @import "libraries/normalize";
-
-// Compass Stuff
-// @import "compass/utilities";
-// @import "compass/layout";
-// @import "compass/css3";
+@import "normalize.css/normalize";
 
 // Libraries
 // @import "libraries/symbolset-standard";
@@ -17,6 +11,9 @@ $desktop-page-width: 620px;
 // Partials
 // @import "partials/syntax";
 @import "partials/typography";
+
+// Objects
+// @import "objects/post"
 
 * {
   box-sizing: border-box;

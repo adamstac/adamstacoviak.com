@@ -20,9 +20,3 @@
 footer, header, hgroup, menu, nav, section, small {
   display: block;
 }
-
-// Ah, yes. Quote me bro!
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
