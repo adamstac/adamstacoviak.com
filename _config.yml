@@ -33,3 +33,16 @@ defaults:
       path: "" # an empty string means all files in the project
     values:
       layout: "post"
+
+# Build exclusions
+exclude:
+  - _drafts
+  - node_modules
+  - sass
+  - CNAME
+  - config.rb
+  - Gemfile
+  - gulpfile.js
+  - package.json
+  - Rakefile
+  - README.md

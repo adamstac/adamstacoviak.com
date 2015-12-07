@@ -21,3 +21,8 @@ end
 
 desc "Compile Sass"
 task :sass => 'sass:watch'
+
+desc "Deploy!"
+task :deploy do
+  system "rsync -arvuz --rsync-path='sudo rsync' _site/ adamstac@static:/var/www/blog.adamstacoviak.com/html"
+end
