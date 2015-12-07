@@ -1,5 +1,5 @@
 // CSS Reset
-@import "normalize.css/normalize";
+@import "lib/reset";
 
 // Libraries
 // @import "libraries/symbolset-standard";
@@ -610,11 +610,12 @@ body.blog .sticky-bar li span.link-home {
 
 .site_footer {
   color: #777;
-  font-size: 14px;
+  font-size: 16px;
   padding: 50px 0;
   text-align: left;
   p {
     margin: 0 auto;
+    line-height: 1.5;
     width: $desktop-page-width;
     a {
       color: #0085BD;

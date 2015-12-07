@@ -1,4 +1,6 @@
-// Reset styles on all elements
+// Modified Meyer reset
+
+// Reset elements using the universal selector and psuedo-elements
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -6,8 +8,6 @@
   border-collapse: collapse;
   border-spacing: 0;
   box-sizing: border-box;
-  background: none;
-  background-color: none;
   outline: none;
   font-size: 100%;
   font: inherit;
