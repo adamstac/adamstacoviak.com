@@ -24,5 +24,5 @@ task :sass => 'sass:watch'
 
 desc "Deploy!"
 task :deploy do
-  system "rsync -arvuz --rsync-path='sudo rsync' --delete _site/ adamstac@static:/var/www/blog.adamstacoviak.com/html"
+  system "rsync -arvuz --rsync-path='sudo rsync' --delete _site/ adamstac@static:/var/www/adamstacoviak.com/html"
 end
