@@ -1,7 +1,7 @@
+.asset-cache
+.bundle
+.sass-cache
+_drafts
 _site
 node_modules
 
-# Sass
-
-.sass-cache
-_drafts

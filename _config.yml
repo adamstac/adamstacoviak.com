@@ -6,26 +6,46 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Adam Stacoviak
+name: Adam Stacoviak
 email: adam@stacoviak.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://adamstacoviak.com" # the base hostname & protocol for your site
+paginate: 10
+url: "http://adamstacoviak.com"
 feed: "http://adamstacoviak.com/feed.xml"
 twitter_username: adamstac
 github_username:  adamstac
 
 # Build settings
-markdown: kramdown
-highlighter: pygments
 permalink: /:title
 
-# Gems
-gems:
+# Markdown Rendering
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+markdown_ext:  markdown,mkdown,mkdn,mkd,md,mdown
+
+# Plugins
+plugins:
   - jekyll-feed
+  - jekyll-assets
+
+# Build Info
+assets:
+  js_compressor: uglifier
+  css_compressor: sass
+  compress:
+    css: false
+  sources:
+    # - _assets/fonts
+    # - _assets/javascripts
+    - _assets/images
+    - _assets/stylesheets
+post:
+  extension: md
 
 # Predefined settings
 defaults:

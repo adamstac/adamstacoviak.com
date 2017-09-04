@@ -1,22 +1,38 @@
 ---
-layout: default
+layout: layout_post
 ---
 
-<article class="post">
-  <header class="post__header">
-    <h1 class="post__title">
-      {% if page.external_url %}
-        <a href="{{ page.external_url }}">{{ page.title }}</a> <span class="post__arrow">&rarr;</span>
-      {% else %}
-        <a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
-      {% endif %}
-    </h1>
-    <p class="post__meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{% assign d = page.date | date: "%-d"  %}{{ page.date | date: "%B" }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</time> &middot; <a href="{{ page.url }}" class="post__permalink" rel="bookmark">∞</a>
-    </p>
-  </header>
+<article class="post post-single">
+  <div class="format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
 
-  <div class="post__content">
-    {{ content }}
+  {% if page.custom_type == 'post' %}
+    <header class="post__header">
+      <h1 class="post__title">{{ page.title }}</h1>
+      <p class="post__meta">
+        Written by Adam Stacoviak &middot; <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%d %b %Y" }}</time>
+      </p>
+    </header>
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+  
+  {% elsif page.custom_type == 'link' %}
+    <header class="post__header">
+      <h1 class="post__title">
+        <a href="{{ page.link_url }}">{{ page.title }}</a>
+      </h1>
+    </header>
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    <p class="post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%A - %B %e, %Y" }}</time>
+    </p>
+
+  {% endif %}
+
   </div>
 </article>

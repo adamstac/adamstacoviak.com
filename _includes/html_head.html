@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+      <!-- Author Info for Google -->
+      <link rel="author" href="//plus.google.com/117715452736637279604">
+      <meta name="author" content="Adam Stacoviak">
+      <link rel="canonical" href="{{ page.url | absolute_url }}">
+      <meta name="description" property="og:description" name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}">
+
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
+
+      <!-- Twitter Info -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@{{ site.twitter_username }}">
+      <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+
+      <!-- Micro.blog Verification -->
+      <link href="https://micro.blog/adamstac" rel="me" />
+
+      {% css styles %}
+
+    </head>
+    <body>

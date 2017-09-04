@@ -1,14 +1,14 @@
-source "https://rubygems.org/"
+# List Gems in alpha order
+source 'https://rubygems.org/'
 
+ruby '2.4.1'
+
+gem 'jekyll', '~> 3.5'
 gem 'rake'
-gem 'jekyll'
-gem 'sass'
-gem 'compass'
-# gem 'breakpoint'
-gem 'pygments.rb'
-
+gem 'uglifier'
 
 group :jekyll_plugins do
-  gem 'octopress', '~> 3.0'
+  gem 'jekyll-assets'
   gem 'jekyll-feed'
+  gem 'jekyll-paginate'
 end

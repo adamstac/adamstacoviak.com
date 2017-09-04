@@ -1,0 +1,84 @@
+---
+layout: default
+excerpt: This is a personal blog written by Adam Stacoviak about podcasting, open source, development, technology, and whatever else he's curious about.
+---
+
+<div class="posts">
+
+  <ul class="home-posts type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+
+    {% for post in site.posts %}
+
+      <li>
+          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%d %b %Y" }}</time> &middot; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+
+</div>
+
+<div class="posts">
+
+  {% for post in paginator.posts %}
+    <div class="home-posts type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+      <article class="post">
+
+        {% if post.custom_type == 'post' %}
+          <header class="post__header">
+            <h2 class="post__title">
+              <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+            </h2>
+          </header>
+
+          <div class="post__content">
+            {{ post.content }}
+          </div>
+        
+        {% elsif post.custom_type == 'link' %}
+          <header class="post__header">
+            <h2 class="post__title">
+                <a href="{{ post.link_url }}">{{ post.title }}</a> <span class="post__arrow"><a href="{{ post.url }}" class="post__permalink" rel="bookmark">#</a></span>
+            </h2>
+          </header>
+
+          <div class="post__content">
+            {{ post.content }}
+          </div>
+        {% endif %}
+        
+      </article>
+    </div>
+  {% endfor %}
+
+</div>
+
+<div class="pagination">
+  <ul class="page-nav">
+  {% if paginator.previous_page %}
+    <li class="page-nav__previous">
+      {% if paginator.previous_page == 1 %}
+        <a href="/">Prev</a>
+      {% else %}
+        <a href="{{ paginator.previous_page_path }}">Prev</a>
+      {% endif %}
+    </li>
+  {% else %}
+    <li class="page-nav__previous page-nav__disabled">
+      Prev
+    </li>
+  {% endif %}
+
+
+  {% if paginator.next_page %}
+    <li class="page-nav__next">
+      <a href="{{ paginator.next_page_path }}">Next</a>
+    </li>
+  {% else %}
+    <li class="page-nav__next page-nav__disabled">
+      Next
+    </li>
+  {% endif %}
+  </ul>
+</div><!-- .pagination -->

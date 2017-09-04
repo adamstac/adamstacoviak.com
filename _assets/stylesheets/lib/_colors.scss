@@ -1,0 +1,16 @@
+// Colors
+
+$changelog-black: #121921;
+
+$loud-color: #000;
+$quiet-color: rgba($loud-color, 0.5);
+$text-color: rgba($loud-color, 0.8);
+$heading-color: rgba($loud-color, 0.9);
+
+$link-color: #0085BD;
+$link-color-hover: saturate($link-color, 50%);
+$link-color-visited: purple;
+
+$background-color: #fff;
+
+$border-color: rgba($text-color, 0.15);

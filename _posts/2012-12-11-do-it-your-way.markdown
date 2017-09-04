@@ -1,8 +1,9 @@
 ---
 title: It Doesn't Feel Like Work
 slug: it-doesnt-feel-like-work
-date: 2012-12-11 21:19:19+00:00
-external_url: http://www.youtube.com/watch?feature=player_detailpage&v=rIXx617xVMo#t=326s
+date: 2012-12-11 21:20:00
+custom_type: link
+link_url: http://www.youtube.com/watch?feature=player_detailpage&v=rIXx617xVMo#t=326s
 layout: post
 ---
 
@@ -20,4 +21,4 @@ Naval:
 
 _I couldn't have said it better myself._
 
-[Follow me on AngelList](https://angel.co/adamstac)
+[Follow me on AngelList](https://angel.co/adamstac).
