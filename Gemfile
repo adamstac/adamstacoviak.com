@@ -1,7 +1,7 @@
 # List Gems in alpha order
 source 'https://rubygems.org/'
 
-gem 'jekyll', '~> 3.5'
+gem 'jekyll', '~> 3.7.2'
 gem 'rake'
 gem 'uglifier'
 

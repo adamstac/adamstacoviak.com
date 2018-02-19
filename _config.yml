@@ -47,13 +47,20 @@ assets:
 post:
   extension: md
 
-# Predefined settings
+# Defaults
 defaults:
   -
     scope:
       path: "" # an empty string means all files in the project
+      type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "" # an empty string means all files in the project
+      type: "pages"
+    values:
+      layout: "page"
 
 # Build exclusions
 exclude:

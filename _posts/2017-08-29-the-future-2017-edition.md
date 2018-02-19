@@ -49,6 +49,12 @@ body {
 
 For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.
 
+## Header 2
+
+### Header 3
+
+#### Header 4
+
 - The vitality of conceptual synergies
 - Neque porro quisquam est
 - It is the star to every wand'ring bark
