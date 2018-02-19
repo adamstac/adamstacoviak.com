@@ -11,17 +11,17 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 
       {% if post.custom_type == 'post' %}
       <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%d %b %Y" }}</time> &middot; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
       </li>
 
       {% elsif post.custom_type == 'link' %}
       <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%d %b %Y" }}</time> &middot; <a href="{{ post.link_url }}">{{ post.title }}</a> <span class="post__arrow"><a href="{{ post.url }}" class="post__permalink" rel="bookmark">~></a></span>
+          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.link_url }}">{{ post.title }}</a> <span class="post__arrow"><a href="{{ post.url }}" class="post__permalink" rel="bookmark">~></a></span>
       </li>
 
       {% else %}
       <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%d %b %Y" }}</time> &middot; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
       </li>
 
       {% endif %}

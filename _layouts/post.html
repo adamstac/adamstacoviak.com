@@ -5,11 +5,13 @@ layout: layout_post
 <article class="post post-single">
   <div class="format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
 
+  <p class="post-home-link"><a href="{{ site.url }}"><~ home</a></p>
+
   {% if page.custom_type == 'post' %}
     <header class="post__header">
       <h1 class="post__title">{{ page.title }}</h1>
       <p class="post__meta">
-        Written by Adam Stacoviak &middot; <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%d %b %Y" }}</time>
+        Date: <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time>
       </p>
     </header>
 

@@ -2,6 +2,9 @@
 @import "lib/colors";
 @import "lib/fonts";
 
+// Helpers
+@import "helpers/all";
+
 // Reset
 @import "lib/reset";
 html, body { background: $background-color; }
@@ -17,7 +20,7 @@ $desktop-page-width: 620px;
 }
 
 body {
-  font-family: Menlo;
+  font-family: 'Roboto Mono', monospace;
   background: #fff;
   color: $changelog-black;
   font-size: 14px;
@@ -55,14 +58,13 @@ body {
 }
 
 .site_wrapper {
-  // width: $desktop-page-width;
-  // margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
   // padding: 50px 0 80px 0;
-  display: grid;
-  grid-template-columns: 700px;
-  grid-template-rows: auto;
-  grid-row-gap: 30px;
-  grid-auto-flow: row;
+
+  @include breakpoint(desktop) {
+    width: 700px;
+  }
 }
 
 .site_content {
@@ -108,6 +110,17 @@ body {
   }
 }
 
+// Post styles
+
+.post {
+  
+  // Gotta get back home
+  &-home-link {
+    margin-bottom: 20px;
+  }
+
+}
+
 //
 // Posts styles
 //
@@ -115,9 +128,6 @@ body {
 .post-single {
   .post__meta {
     margin-top: 10px;
-  }
-  .post__content {
-    margin-top: 50px;
   }
 }
 
@@ -181,12 +191,12 @@ body {
 
 .format-post {
   .post__header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .post__title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 1.25;
+    line-height: 1.5;
     margin-bottom: 5px;
     a {
       text-decoration: underline;
@@ -197,7 +207,7 @@ body {
     }
   }
   .post__meta {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -321,8 +331,8 @@ body {
     }
   }
   p, li {
-    line-height: 1.6;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.75em;
   }
 
   // Code highlighting
@@ -346,6 +356,7 @@ body {
     overflow: auto;
     padding: 15px 20px;
     word-break: normal;
+    border-radius: $base-border-radius;
   }
   pre code {
     display: inline;
@@ -385,9 +396,10 @@ body {
     color: #000;
   }
   blockquote {
-    border-left: 1px solid $changelog-black;
+    border-left: 3px solid $light-green;
     margin: 20px 0;
-    padding-left: 2.5%;
+    margin-left: -23px;
+    padding-left: 20px;
     width: 100%;
   }
 
