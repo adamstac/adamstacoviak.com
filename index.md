@@ -25,6 +25,6 @@ Where can you go from here?
 
 Thanks!
 
-<p class="signature"><img src="{% asset_path signature.png %}"></p>
+<p class="signature"><img src="{{ asset_path signature.png }}"></p>
 
 Adam Stacoviak
