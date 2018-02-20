@@ -19,6 +19,4 @@ Naval:
 
 > Yea, but when you're working it your way, there's less bullshit (hopefully). When you're doing it your own way, it doesn't feel like work.
 
-_I couldn't have said it better myself._
-
-[Follow me on AngelList](https://angel.co/adamstac).
+I couldn't have said it better myself.
