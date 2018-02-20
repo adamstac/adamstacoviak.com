@@ -11,9 +11,15 @@ I've been designing, developing, and leading products since 2006.
 
 I started podcasting that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
 
-Now I'm the Founder and Editor-in-Chief of [Changelog Media](https://changelog.com/) where we publish news and podcasts for developers. We produce several podcasts ~ [The Changelog](https://changelog.com/podcast), [Request For Commits](https://changelog.com/rfc), [Go Time](https://changelog.com/gotime), and [more](https://changelog.com/podcasts).
+Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for developers. We produce several well known podcasts, like:
 
-Thousands of developers visit our homepage everyday to keep up. If you're not [subscribed](https://changelog.com/weekly), trust me -- _you're missing out_.
+- [The Changelog](https://changelog.com/podcast)
+- [Founders Talk](https://changelog.com/founderstalk)
+- [Go Time](https://changelog.com/gotime)
+
+View the full lineup of podcasts we produce at [changelog.com/podcasts](https://changelog.com/podcasts).
+
+Thousands upon thousands of developers visit our homepage, read our emails, and listen to our podcasts everyday to keep up. You should too.
 
 \-\-\-
 
