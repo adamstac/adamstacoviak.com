@@ -3,7 +3,7 @@ title: Follow your bliss (your genius)
 slug: follow-your-bliss
 date: 2012-11-21 07:06:40+00:00
 external_url: http://www.amazon.com/gp/product/0060926171?ie=UTF8&camp=213733&creative=393185&creativeASIN=0060926171&linkCode=shr&tag=adamstaccom-20
-layout: post
+custom_type: link
 ---
 
 [Joseph Campbell](http://en.wikipedia.org/wiki/Joseph_Campbell) in [Reflections in the Art of Living: A Joseph Campbell Companion](http://www.amazon.com/gp/product/0060926171?ie=UTF8&camp=213733&creative=393185&creativeASIN=0060926171&linkCode=shr&tag=adamstaccom-20):

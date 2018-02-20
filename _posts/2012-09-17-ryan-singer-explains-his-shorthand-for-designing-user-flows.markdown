@@ -3,7 +3,7 @@ title: Ryan Singer's shorthand for user flows
 slug: ryan-singers-shorthand-for-designing-user-flows
 date: 2012-09-17 06:00:56+00:00
 external_url: https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows
-layout: post
+custom_type: link
 ---
 
 This shorthand method not only saves time, but also keeps things simple.

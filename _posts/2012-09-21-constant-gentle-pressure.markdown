@@ -3,7 +3,7 @@ title: Constant, gentle pressure.
 slug: constant-gentle-pressure
 date: 2012-09-21 20:30:50+00:00
 external_url: http://www.inc.com/magazine/20061001/column-guest.html
-layout: post
+custom_type: link
 ---
 
 This is a fantastic read for those who are leaders, or aspire to lead.

@@ -3,7 +3,7 @@ title: Apply human behavior to your design
 slug: mental-notes
 date: 2012-09-19 18:10:27+00:00
 external_url: http://getmentalnotes.com/
-layout: post
+custom_type: link
 ---
 
 It's tough to remember all the ways to apply psychology into the design of our applications. If you've ever caught yourself saying, "oh let me make a 'mental note' of that," you'll love Stephen Anderson's [Mental Notes](http://getmentalnotes.com/).

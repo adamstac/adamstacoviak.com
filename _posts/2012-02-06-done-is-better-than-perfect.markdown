@@ -3,7 +3,7 @@ title: Done is better than perfect
 slug: done-is-better-than-perfect
 date: 2012-02-06 09:49:39+00:00
 external_url: http://www.designforfun.com/facebookposters/
-layout: post
+custom_type: link
 ---
 
 ![Done is better than perfect](uploads/2012/02/done-is-better-than-perfect.png)

@@ -3,7 +3,7 @@ title: Add "Easy to Use" to the List
 slug: add-easy-to-use-to-the-list
 date: 2012-10-02 02:00:46+00:00
 external_url: http://dilbert.com/strip/2001-04-14
-layout: post
+custom_type: link
 ---
 
 Don't be this person.

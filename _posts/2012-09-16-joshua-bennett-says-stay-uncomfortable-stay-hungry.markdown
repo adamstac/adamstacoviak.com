@@ -3,7 +3,7 @@ title: Stay Uncomfortable. Stay Hungry.
 slug: stay-uncomfortable-stay-hungry
 date: 2012-09-16 19:57:14+00:00
 external_url: http://alwaysaudacious.com/2012/07/28/stay-uncomfortable-stay-hungry/
-layout: post
+custom_type: link
 ---
 
 Joshua makes some very good points on contentment and how that effects your drive and hunger.
