@@ -2,7 +2,7 @@
 title: Constant, gentle pressure.
 slug: constant-gentle-pressure
 date: 2012-09-21 20:30:50+00:00
-external_url: http://www.inc.com/magazine/20061001/column-guest.html
+link_url: http://www.inc.com/magazine/20061001/column-guest.html
 custom_type: link
 ---
 

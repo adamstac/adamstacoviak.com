@@ -2,7 +2,7 @@
 title: Stay Uncomfortable. Stay Hungry.
 slug: stay-uncomfortable-stay-hungry
 date: 2012-09-16 19:57:14+00:00
-external_url: http://alwaysaudacious.com/2012/07/28/stay-uncomfortable-stay-hungry/
+link_url: http://alwaysaudacious.com/2012/07/28/stay-uncomfortable-stay-hungry/
 custom_type: link
 ---
 

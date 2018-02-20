@@ -2,7 +2,7 @@
 title: Apply human behavior to your design
 slug: mental-notes
 date: 2012-09-19 18:10:27+00:00
-external_url: http://getmentalnotes.com/
+link_url: http://getmentalnotes.com/
 custom_type: link
 ---
 

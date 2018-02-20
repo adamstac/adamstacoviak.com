@@ -2,7 +2,7 @@
 title: Follow your bliss (your genius)
 slug: follow-your-bliss
 date: 2012-11-21 07:06:40+00:00
-external_url: http://www.amazon.com/gp/product/0060926171?ie=UTF8&camp=213733&creative=393185&creativeASIN=0060926171&linkCode=shr&tag=adamstaccom-20
+link_url: http://www.amazon.com/gp/product/0060926171?ie=UTF8&camp=213733&creative=393185&creativeASIN=0060926171&linkCode=shr&tag=adamstaccom-20
 custom_type: link
 ---
 

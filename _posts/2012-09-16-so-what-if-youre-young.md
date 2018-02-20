@@ -2,7 +2,7 @@
 title: So what if you’re young.
 slug: so-what-if-youre-young
 date: 2012-09-16 19:03:54+00:00
-external_url: http://theindustry.cc/2012/09/14/youre-young-im-18-so-what/
+link_url: http://theindustry.cc/2012/09/14/youre-young-im-18-so-what/
 custom_type: link
 ---
 

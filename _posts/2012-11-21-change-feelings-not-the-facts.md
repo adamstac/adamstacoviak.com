@@ -2,7 +2,7 @@
 title: Change feelings. Not the facts.
 slug: change-feelings-not-the-facts
 date: 2012-11-21 07:42:43+00:00
-external_url: http://sethgodin.typepad.com/seths_blog/2012/10/the-only-purpose-of-customer-service.html
+link_url: http://sethgodin.typepad.com/seths_blog/2012/10/the-only-purpose-of-customer-service.html
 custom_type: link
 ---
 

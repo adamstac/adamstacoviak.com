@@ -2,7 +2,7 @@
 title: Even Disney starts with wireframes
 slug: even-disney-starts-with-wireframes
 date: 2012-02-07 06:41:26+00:00
-external_url: https://twitter.com/disneypixar/status/164483393717936128
+link_url: https://twitter.com/disneypixar/status/164483393717936128
 custom_type: link
 ---
 

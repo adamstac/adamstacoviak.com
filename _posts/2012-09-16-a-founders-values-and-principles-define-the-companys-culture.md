@@ -2,7 +2,7 @@
 title: A founders' values and principles define the company's culture
 slug: a-founders-values-and-principles-define-the-companys-culture
 date: 2012-09-16 19:30:25+00:00
-external_url: http://unclutteredwhitespaces.com/2012/09/you-are-your-start-ups-culture/
+link_url: http://unclutteredwhitespaces.com/2012/09/you-are-your-start-ups-culture/
 custom_type: link
 ---
 

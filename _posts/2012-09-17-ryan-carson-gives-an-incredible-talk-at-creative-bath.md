@@ -2,7 +2,7 @@
 title: 7 Life Principles From Ryan Carson
 slug: 7-life-principles-from-ryan-carson
 date: 2012-09-17 07:42:13+00:00
-external_url: http://blog.teamtreehouse.com/guiding-principles-ryan-carson
+link_url: http://blog.teamtreehouse.com/guiding-principles-ryan-carson
 custom_type: link
 ---
 
