@@ -373,19 +373,10 @@ body {
       color: $link-color;
       text-decoration: underline;
       &:hover {
-        background: #eee;
+        background: $light-grey;
         color: $changelog-black;
         text-decoration: none;
       }
-    }
-    a.contains-img {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-    a.contains-img:hover {
-      background: transparent;
-      border-bottom: none;
-      padding-bottom: 0;
     }
 
     em {
