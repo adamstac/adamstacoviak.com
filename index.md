@@ -27,6 +27,6 @@ Where can you go from here?
 
 Thanks!
 
-<p class="signature"><img src="{{ site.url }}/assets/signature.png"></p>
+<p class="signature">{% asset 'signature.png' %}</p>
 
 Adam Stacoviak
