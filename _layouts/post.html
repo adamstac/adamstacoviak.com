@@ -5,10 +5,9 @@ layout: layout_post
 <article class="post post-single">
   <div class="format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
 
-  <p class="post-home-link"><a href="{{ site.url }}"><~ home</a></p>
-
   {% if page.custom_type == 'post' %}
-    <header class="post-header">
+
+  <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-meta">
         Date: <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time>
@@ -17,22 +16,25 @@ layout: layout_post
 
     <div class="post-content">
       {{ content }}
+      <p>---</p>
+      <p><a href="{{ site.url}}/blog">Read more posts like this.</a></p>
     </div>
   
   {% elsif page.custom_type == 'link' %}
-    <header class="post-header">
+
+  <header class="post-header">
       <h1 class="post-title">
         <a href="{{ page.link_url }}">{{ page.title }}</a>
       </h1>
     </header>
 
     <div class="post-content">
+      <p><a href="{{ page.link_url }}">Direct link</a></p>
+      <p>---</p>
       {{ content }}
+      <p>---</p>
+      <p><a href="{{ site.url}}/blog">Read more posts like this.</a></p>
     </div>
-
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%A - %B %e, %Y" }}</time>
-    </p>
 
   {% endif %}
 
