@@ -119,7 +119,10 @@ body {
 .post-index {
   .post {
     margin-bottom: 10px;
-  }  
+    a:hover {
+      text-decoration: underline; 
+    }
+  }
 }
 
 .post-title-icon {
@@ -244,19 +247,9 @@ body {
       font-weight: bold;
       line-height: 1.25;
       margin-bottom: 5px;
-      a {
-        text-decoration: underline;
-        &:hover {
-          background-color: #eee;
-          text-decoration: none;
-        }
-      }
-    }
-    .post-arrow {
-      a {
-        margin-left: -3px;
-        padding: 0 6px;
-        text-decoration: none;
+      
+      a:hover {
+          text-decoration: underline;
       }
     }
     .post-meta {
@@ -267,11 +260,6 @@ body {
 
 // Post styles
 .post {
-
-  // Gotta get back home
-  &-home-link {
-    margin-bottom: 20px;
-  }
 
   // Post content styles
   &-content {
