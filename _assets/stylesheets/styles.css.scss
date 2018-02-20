@@ -85,6 +85,10 @@ body {
   }
 }
 
+.site-content {
+  padding-bottom: 50px;
+}
+
 .site-header {
   margin-bottom: 30px;
 }
@@ -356,6 +360,13 @@ body {
       margin-bottom: 15px;
       // padding: 5px;
       max-width: 100%;
+      &.wide {
+        margin-left: -20%;
+        max-width: 140%;
+      }
+      &.border {
+        border: 1px solid $light-grey;
+      }
       &.alignright {
         // @include float-right;
         margin: 5px 0 15px 25px;
