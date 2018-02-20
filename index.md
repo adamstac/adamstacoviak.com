@@ -5,6 +5,8 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 
 **Hello, I'm Adam Stacoviak.**
 
+\-\-\-
+
 I've been designing, developing, and leading products since 2006.
 
 I started podcasting that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
@@ -25,6 +27,6 @@ Where can you go from here?
 
 Thanks!
 
-<p class="signature"><img src="/assets/signature.png"></p>
+<p class="signature"><img src="{{ site.url }}/assets/signature.png"></p>
 
 Adam Stacoviak
