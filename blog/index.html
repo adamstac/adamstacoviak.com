@@ -3,31 +3,27 @@ layout: default
 excerpt: This is a personal blog written by Adam Stacoviak about podcasting, open source, development, technology, and whatever else he's curious about.
 ---
 
-<div class="posts">
+<ul class="post-index">
 
-  <ul class="home-posts type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+  {% for post in site.posts %}
 
-    {% for post in site.posts %}
+    {% if post.custom_type == 'post' %}
+    <li class="post format-post">
+        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+    </li>
 
-      {% if post.custom_type == 'post' %}
-      <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-      </li>
+    {% elsif post.custom_type == 'link' %}
+    <li class="post format-link">
+        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.link_url }}">{{ post.title }}</a>&nbsp;<span class="post-arrow"><a href="{{ post.url }}" class="post-permalink" rel="bookmark">~></a></span>
+    </li>
 
-      {% elsif post.custom_type == 'link' %}
-      <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.link_url }}">{{ post.title }}</a> <span class="post__arrow"><a href="{{ post.url }}" class="post__permalink" rel="bookmark">~></a></span>
-      </li>
+    {% else %}
+    <li class="post format-none">
+        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+    </li>
 
-      {% else %}
-      <li>
-          <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-      </li>
+    {% endif %}
 
-      {% endif %}
+  {% endfor %}
 
-    {% endfor %}
-
-  </ul>
-
-</div>
+</ul>
