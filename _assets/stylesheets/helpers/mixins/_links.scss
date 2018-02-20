@@ -1,0 +1,11 @@
+@mixin link() {
+  a {
+    color: $link-color;
+    text-decoration: underline;
+    &:hover {
+      background: $light-grey;
+      color: $changelog-black;
+      text-decoration: none;
+    }
+  }
+}
