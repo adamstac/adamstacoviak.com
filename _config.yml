@@ -64,12 +64,12 @@ defaults:
 
 # Build exclusions
 exclude:
-  - _drafts
   - node_modules
   - sass
   - CNAME
   - config.rb
   - Gemfile
+  - Gemfile.lock
   - gulpfile.js
   - package.json
   - Rakefile
