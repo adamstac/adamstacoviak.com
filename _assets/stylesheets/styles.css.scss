@@ -34,9 +34,9 @@ body {
 }
 
 hr {
-  margin: 30px 0;
-  height: 1px;
-  width: 100%;
+  margin: 65px auto;
+  height: 2px;
+  width: 33%;
   background-color: lighten($changelog-black, 80);
 }
 
@@ -206,7 +206,7 @@ body {
       margin-bottom: 40px;
     }
     .post-title {
-      font-size: 30px;
+      font-size: 24px;
       font-weight: bold;
       line-height: 1.5;
       margin-bottom: 5px;
@@ -295,8 +295,8 @@ body {
       }
     }
     p, li {
-      font-size: 1rem;
-      line-height: 1.75em;
+      font-size: 16px;
+      line-height: 1.8;
     }
 
     // Code highlighting
