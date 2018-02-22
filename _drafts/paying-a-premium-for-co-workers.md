@@ -62,8 +62,8 @@ Nicholas Hune-Brown, writes for The Walrus:
 
 Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go where there's "busy people being productive". Does it really matter you're not productive or getting things done while you're there? Maybe. Probably not.
 
-Work is work, no matter how you slice it. If you're working on work stuff, you're working. Getting the work done, networking, connecting, pouring into others, having others pour into you, etc. --- they are all forms of the work you need to do, to be the you you need to be, to get the job done.
+Work is work, no matter how you slice it. If you're working on work stuff, you're working. Getting work done, networking, connecting, pouring into others, having others pour into you, etc. --- they're all forms of the work you need to do, to be the you you need to be, to get your job done.
 
-The WeWork's and WELD's of the world are certainly a step in the right direction of productivity from a coffee shop that just so happens to be co-working friendly so they can sell more coffee and pastries.
+The WeWork's and WELD's of the world are certainly a step in the right direction to productivity from a coffee shop that just so happens to be co-working friendly so they can sell more coffee and pastries.
 
 But, are we just paying a premium for co-workers?
