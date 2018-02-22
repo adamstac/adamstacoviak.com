@@ -58,8 +58,10 @@ Nicholas Hune-Brown, writes for The Walrus:
 
 > Dane Jensen said, the building’s vibe could feel invigorating at times. “If I’ve been working at home for too many days in a row and I’m feeling sluggish, it’s nice to go somewhere where there’s a lot of **busy people being productive**.”
 
-Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go somewhere where there's "busy people being productive". Does it really matter you're not "productive" or "getting things done" while you're there? Maybe. Probably not.
+Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go where there's "busy people being productive". Does it really matter you're not productive or getting things done while you're there? Maybe. Probably not.
 
-The WeWork's and WELD's of the world are certainly a step in the right direction of productivity from a coffee house that just so happens to be co-working friendly so they can sell more coffee and pastries.
+Work is work, no matter how you slice it. If you're working on work stuff, you're working. Getting the work done, networking, connecting, pouring into others, having others pour into you, etc. --- they are all forms of the work you need to do, to be the you you need to be, to get the job done.
+
+The WeWork's and WELD's of the world are certainly a step in the right direction of productivity from a coffee shop that just so happens to be co-working friendly so they can sell more coffee and pastries.
 
 But, are we just paying a premium for co-workers?
