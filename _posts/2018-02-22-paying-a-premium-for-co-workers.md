@@ -37,7 +37,7 @@ Let that sink in.
 
 Clearly this co-working thing and selling you a membership and desk is big business. Why not? It's a place you can share ideas around craft-beer taps, buy into a utopian vision of community, and hang out for tequila Tuesdays.
 
-I've never been to a WeWork workspace, but I have been to other co-working spaces like [WELD](http://www.weld.co/) and various places here in Houston. I never went so I could be productive with day to day work stuff. I went to for the networking and community. I went to see other people. I needed a more clear definition of work/life balance and to get out of the house.
+I've never been to a WeWork workspace, but I have been to other co-working spaces like [WELD](http://www.weld.co/) and various places here in Houston. I never went so I could be productive with day to day work stuff. I went for the networking and community. I went to see other people. I needed a more clear definition of work/life balance and to get out of the house.
 
 Like most freelancers, small team startups, or distributed workers -- we tend to work from home for the lifestyle it affords us. We love to take 10 minute breaks to hug our kids, go for a walk with our dog, or say hello to our neighbors. Sadly though, we don't have co-workers -- not in the conventional sense of the word. Sorry, your kids, husband, wife, dog, or neightbor don't qualify as co-workers.
 
