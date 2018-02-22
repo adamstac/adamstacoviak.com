@@ -14,7 +14,7 @@ layout: layout_post
     <div class="post-content">
       {{ content }}
       <p>---</p>
-      <p>Published <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time></p>
+      <p style="margin-bottom: 4px;">Published <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time></p>
       <p><a href="{{ site.url}}/blog">Read more posts like this.</a></p>
     </div>
   
@@ -31,7 +31,7 @@ layout: layout_post
       <p>---</p>
       {{ content }}
       <p>---</p>
-      <p>Published <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time></p>
+      <p style="margin-bottom: 4px;">Published <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%Y-%m-%d" }}</time></p>
       <p><a href="{{ site.url}}/blog">Read more posts like this.</a></p>
     </div>
 
