@@ -4,31 +4,53 @@ sub_title: (and we like it)
 custom_type: post
 ---
 
-After reading this article on The Walrus titled [Why It's so Hard to Actually Work in Shared Offices](https://thewalrus.ca/why-its-so-hard-to-actually-work-in-shared-offices/), I couldn't help but think about how the tables have shifted for today's workforce.
+After reading this article on [The Walrus](https://thewalrus.ca/) titled [Why It's so Hard to Actually Work in Shared Offices](https://thewalrus.ca/why-its-so-hard-to-actually-work-in-shared-offices/), I couldn't help but think about how the tables have shifted for today's workforce.
 
-Back in the day, which doesn't seem all that long ago to me -- workers typically worked in an office or at a location where a businesses day to day operations were conducted. This is still true today, but it is also true that more and more people are either working as a freelancer, working from home for themselves or as a remote employee, or some other mix who don't have to go in to an office to get their work done.
-
-Nicholas Hune-Brown, writes for The Walrus:
-
-> [According to a survey](https://blog.freelancersunion.org/2016/10/06/freelancing-in-america-2016/) by Upwork and the Freelancers Union, more than one-third of workers in the United States were freelancers in 2016— some 55 million and counting. A study by accounting-software provider QuickBooks predicts that 45 percent of the Canadian workforce will be self-employed by 2020. WeWork is determined to become the default home for a new generation of white-collar workers. It believes that **these budding entrepreneurs have no interest in the grey cubicles of the past**.
-
-<img src="/uploads/2018/02/FU_FreelancinginAmerica2016_Infographic.png" class="wide">
-
-In 2016, 35% of the workforce in America were freelancers and contributed $1 trillion dollars to the economy. That number is astonding.
+We all need co-workers. Some get them for free. Others have to pay for them. We're trending towards paying for them.
 
 ---
 
-## What is WeWork?
+Back in the day, which doesn't seem all that long ago to me -- workers typically worked in an office or at a location where a businesses day to day operations were conducted. This is still true today. It's also true that more and more people are either working as a freelancer, working from home for themselves or as a remote employee, or some other mix who don't have to go into an office to get their work done.
 
-[WeWork has a $20 billion valuation](https://www.forbes.com/sites/stevenbertoni/2017/07/10/wework-hits-20-billion-valuation-in-new-funding-round/#3fdc54c71194). I pulled this from [their homepage](https://www.wework.com/):
+Nicholas Hune-Brown, writes for The Walrus:
+
+> [According to a survey](https://blog.freelancersunion.org/2016/10/06/freelancing-in-america-2016/) by Upwork and the Freelancers Union, more than one-third of workers in the United States were freelancers in 2016— some 55 million and counting. WeWork is determined to become the default home for a new generation of white-collar workers. It believes that **these budding entrepreneurs have no interest in the grey cubicles of the past**.
+
+<figure class="grid-figure">
+  <img src="/uploads/2018/02/FU_FreelancinginAmerica2016_Infographic.png">
+  <figcaption class="align-self-end">
+    <p>The full report by Upwork and the Freelancers Union can be <a href="https://blog.freelancersunion.org/2016/10/06/freelancing-in-america-2016/">found here</a>.</p>
+    <p>This independent workforce survey reveals new insights into freelancing in America. Key findings: Freelancers earned an estimated $1 trillion this year, are highly motivated, growing.</p>
+  </figcaption>
+</figure>
+
+**In 2016, 35% of the workforce in America were freelancers** and contributed $1 trillion dollars to the economy.
+
+Let that sink in.
+
+---
+
+**What is WeWork?** WeWork is a global co-working network with a [$20 billion valuation](https://www.forbes.com/sites/stevenbertoni/2017/07/10/wework-hits-20-billion-valuation-in-new-funding-round/#3fdc54c71194). I pulled this from [their homepage](https://www.wework.com/):
 
 > **Make a life, not just a living.** WeWork is a global network of workspaces where companies and people grow together. We transform buildings into dynamic environments for creativity, focus, and connection. More than just the best place to work, though, this is a movement toward humanizing work. We believe that CEOs can help each other, offices can use the comforts of home, and we can all look forward to Monday if we find real meaning in what we do.
 
-I've never been to a WeWork workspace, but I have been to other co-working spaces like [WELD](http://www.weld.co/) and various places here in Houston. Most times I didn't go to be productive with day to day work. I went to be productive with networking and community. I went to see other people. I went to gain a  clearer definition of work/life balance and to get out of the house.
+Clearly this co-working thing and selling you a membership and desk is big business. Why not? It's a place you can share ideas around craft-beer taps, buy into a utopian vision of community, and hang out for tequila Tuesdays.
 
-Like most freelancers, small team startups, or distributed workers -- we tend to work from home for the lifestyle it affords us. We don't have co-workers tough. And no, your 2 year old son, husband, wife, or your dog or cat aren't considered co-workers. As workers from home, we often work in complete isoloation. Most of us like it that way. But To get an often much needed interaction with other like-minded humans we go to places like Slack, Twitter, Instagram, Facebook, or LinkedIn, in hopes of finding connection, acceptance, and value.
+I've never been to a WeWork workspace, but I have been to other co-working spaces like [WELD](http://www.weld.co/) and various places here in Houston. I never went so I could be productive with day to day work stuff. I went to for the networking and community. I went to see other people. I needed a more clear definition of work/life balance and to get out of the house.
 
-The WeWork model offers the same, but in a face to face, localized, accessible package. They offer a real place, with real people.
+Like most freelancers, small team startups, or distributed workers -- we tend to work from home for the lifestyle it affords us. We love to take 10 minute breaks to hug our kids, go for a walk with our dog, say hello to a neighbor. Sadly though -- we don't have co-workers in the conventional sense of the word. Sorry, your kids, husband, wife, dog, or neightbor don't qualify as co-workers.
+
+We all need a place to belong.
+
+---
+
+As workers from home, we often work in complete isoloation. Most of us like it that way. The rest of us are lonely, in the professional sense, of course. To get that much needed interaction with other like-minded humans we turn to Slack, Twitter, Instagram, Facebook, LinkedIn, Snapchat, iMessage -- pretty much anything that gives us hope, connection, acceptance, and value -- the four pillars of a healthy human.
+
+That works, mostly. But not really.
+
+For many, the only option is to pay for co-workers.
+
+There was a time when co-workers came free with the job. Now we have to pay a premium to rent a desk, be a member, or attend an event -- and it's not even about getting more done. It's about connection.
 
 Nicholas Hune-Brown, writes for The Walrus:
 
@@ -36,13 +58,7 @@ Nicholas Hune-Brown, writes for The Walrus:
 
 > Dane Jensen said, the building’s vibe could feel invigorating at times. “If I’ve been working at home for too many days in a row and I’m feeling sluggish, it’s nice to go somewhere where there’s a lot of **busy people being productive**.”
 
-Both Fotini and Dane said they wanted to be with other people. They didn't say "where we can get things done." There's a difference. But, does it really matter you won't be "as productive" or "getting things done" while you're there? Probably not.
-
-## Free co-workers
-
-There was a time when co-workers came free with the job. Now we have to pay a premium to rent a desk, be a member, attend a conference -- and it's not even about getting more done. It's about connection.
-
-Work is work, no matter how you slice it. If you're working on work stuff, you're working. Getting the work done, networking, connecting, pouring into others, having others pour into you, etc. --- they are all forms of the work you need to do to be the you you need to be to get the job done.
+Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go somewhere where there's "busy people being productive". Does it really matter you're not "productive" or "getting things done" while you're there? Maybe. Probably not.
 
 The WeWork's and WELD's of the world are certainly a step in the right direction of productivity from a coffee house that just so happens to be co-working friendly so they can sell more coffee and pastries.
 
