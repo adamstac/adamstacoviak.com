@@ -24,7 +24,7 @@ Nicholas Hune-Brown, writes for The Walrus:
   </figcaption>
 </figure>
 
-**In 2016, 35% of the workforce in America were freelancers** and contributed $1 trillion dollars to the economy.
+According to this report, **in 2016, 35% of the workforce in America were freelancers** and contributed $1 trillion dollars to the economy.
 
 Let that sink in.
 
@@ -38,7 +38,7 @@ Clearly this co-working thing and selling you a membership and desk is big busin
 
 I've never been to a WeWork workspace, but I have been to other co-working spaces like [WELD](http://www.weld.co/) and various places here in Houston. I never went so I could be productive with day to day work stuff. I went to for the networking and community. I went to see other people. I needed a more clear definition of work/life balance and to get out of the house.
 
-Like most freelancers, small team startups, or distributed workers -- we tend to work from home for the lifestyle it affords us. We love to take 10 minute breaks to hug our kids, go for a walk with our dog, say hello to a neighbor. Sadly though -- we don't have co-workers in the conventional sense of the word. Sorry, your kids, husband, wife, dog, or neightbor don't qualify as co-workers.
+Like most freelancers, small team startups, or distributed workers -- we tend to work from home for the lifestyle it affords us. We love to take 10 minute breaks to hug our kids, go for a walk with our dog, or say hello to our neighbors. Sadly though, we don't have co-workers -- not in the conventional sense of the word. Sorry, your kids, husband, wife, dog, or neightbor don't qualify as co-workers.
 
 We all need a place to belong.
 
@@ -46,23 +46,31 @@ We all need a place to belong.
 
 <img src="/uploads/emoji/admit-one.png" class="aligncenter">
 
-As workers from home, we often work in complete isoloation. Most of us like it that way. The rest of us are lonely, in the professional sense, of course. To get that much needed interaction with other like-minded humans we turn to Slack, Twitter, Instagram, Facebook, LinkedIn, Snapchat, iMessage -- pretty much anything that gives us hope, connection, acceptance, and value -- the four pillars of a healthy human.
+As workers from home, we often work in complete isoloation. Most of us like it that way. The rest of us are lonely. To get some much needed interaction with other like-minded humans we turn to Slack, Twitter, Instagram, Facebook, LinkedIn, Snapchat, iMessage -- pretty much anything that gives us hope, connection, acceptance, and value -- the four pillars of a healthy human.
 
 That works, mostly. But not really.
 
 For many, the only option is to pay for co-workers.
 
+From Nicholas Hune-Brown's article for The Walrus:
+
+> A “hot desk” (a spot at a communal table or couch) starts at $500 per month, a permanent desk at $700, and a private office at $1,000.
+
+The minimum price of addmission is $500 per month.
+
 There was a time when co-workers came free with the job. Now we have to pay a premium to rent a desk, be a member, or attend an event -- and it's not even about getting more done. It's about connection.
 
-Nicholas Hune-Brown, writes for The Walrus:
+Two examples from Nicholas Hune-Brown's article for The Walrus:
 
 > Fotini Iconomopoulos, a negotiation consultant, perched on one of the many couches. She had spent years working on the road and from cafés before trying out a co-working space. “I like the idea of **seeing people** that I can connect with on a regular basis, seeing familiar faces,” she explained.
 
 > Dane Jensen said, the building’s vibe could feel invigorating at times. “If I’ve been working at home for too many days in a row and I’m feeling sluggish, it’s nice to go somewhere where there’s a lot of **busy people being productive**.”
 
-Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go where there's "busy people being productive". Does it really matter you're not productive or getting things done while you're there? Maybe. Probably not.
+Neither Fotini or Dane said they wanted to get more stuff done. They wanted to "see familiar faces" and go where "busy people are being productive". Does it really matter if they're not productive or getting things done while they're there? Maybe. Maybe not.
 
-Work is work, no matter how you slice it. If you're working on work stuff, you're working. Getting work done, networking, connecting, pouring into others, having others pour into you, etc. --- they're all forms of the work you need to do, to be the you you need to be, to get your job done.
+Work is work, no matter how you slice it. If you are working on actual work stuff, you're working. If you are networking, connecting, pouring into others, having others pour into you, etc, you're working. Those are all forms of the work you need to do, to be the you you need to be, to get your job done. It's all work.
+
+## Conclusion
 
 The WeWork's and WELD's of the world are certainly a step in the right direction to productivity from a coffee shop that just so happens to be co-working friendly so they can sell more coffee and pastries.
 
