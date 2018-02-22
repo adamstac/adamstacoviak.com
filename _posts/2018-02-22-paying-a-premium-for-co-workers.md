@@ -47,7 +47,7 @@ We all need a place to belong.
 
 <img src="/uploads/emoji/admit-one.png" class="aligncenter">
 
-As workers from home, we often work in complete isoloation. Most of us like it that way. The rest of us are lonely. To get some much needed interaction with other like-minded humans we turn to Slack, Twitter, Instagram, Facebook, LinkedIn, Snapchat, iMessage -- pretty much anything that gives us hope, connection, acceptance, and value -- the four pillars of a healthy human.
+As workers from home, we often work in complete isolation. Most of us like it that way. The rest of us are lonely. To get some much needed interaction with other like-minded humans we turn to Slack, Twitter, Instagram, Facebook, LinkedIn, Snapchat, iMessage -- pretty much anything that gives us hope, connection, acceptance, and value -- the four pillars of a healthy human.
 
 That works, mostly. But not really.
 
