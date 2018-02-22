@@ -2,6 +2,7 @@
 title: We're paying a premium for co-workers
 sub_title: (and we like it)
 custom_type: post
+date: 2018-02-22 10:40:00
 ---
 
 After reading this article on [The Walrus](https://thewalrus.ca/) titled [Why It's so Hard to Actually Work in Shared Offices](https://thewalrus.ca/why-its-so-hard-to-actually-work-in-shared-offices/), I couldn't help but think about how the tables have shifted for today's workforce.
