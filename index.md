@@ -15,7 +15,7 @@ Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com
 
 - [The Changelog](https://changelog.com/podcast)
 - [Founders Talk](https://changelog.com/founderstalk)
-- [Go Time](https://changelog.com/gotime)
+- [Away from Keyboard](https://changelog.com/afk)
 
 View the full lineup of podcasts we produce at [changelog.com/podcasts](https://changelog.com/podcasts).
 
