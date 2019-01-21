@@ -203,21 +203,28 @@ body {
   // Post
   &-post {
     .post-header {
-      margin-bottom: 40px;
-    }
-    .post-title {
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 1.5;
-      margin-bottom: 5px;
-      a {
-        text-decoration: underline;
-        &:hover {
-          background-color: #eee;
-          text-decoration: none;
+      margin-bottom: 50px;
+
+      &__title {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: center;
+        a {
+          text-decoration: underline;
+          &:hover {
+            background-color: #eee;
+            text-decoration: none;
+          }
         }
       }
+
+      &__byline {
+        text-align: center;
+      }
     }
+
     .post-meta {
       font-size: 14px;
     }
