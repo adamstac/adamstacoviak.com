@@ -14,12 +14,15 @@ I started podcasting that same year as co-host of [The Web 2.0 Show](http://web2
 Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for developers. We produce several well known podcasts, like:
 
 - [The Changelog](https://changelog.com/podcast)
+- [JS Party](https://changelog.com/jsparty)
 - [Founders Talk](https://changelog.com/founderstalk)
 - [Away from Keyboard](https://changelog.com/afk)
+- [Practical AI](https://changelog.com/practicalai)
+- [Go Time](https://changelog.com/gotime)
 
 View the full lineup of podcasts we produce at [changelog.com/podcasts](https://changelog.com/podcasts).
 
-Thousands upon thousands of developers visit our homepage, read our emails, and listen to our podcasts everyday to keep up. [You should too](https://changelog.com/subscribe).
+Thousands upon thousands of developers visit our site, listen to our podcasts, and read our news everyday to keep up. [You should too](https://changelog.com/subscribe).
 
 \-\-\-
 
