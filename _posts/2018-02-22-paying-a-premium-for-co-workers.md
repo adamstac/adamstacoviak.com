@@ -17,7 +17,7 @@ Nicholas Hune-Brown, writes for The Walrus:
 
 > [According to a survey](https://blog.freelancersunion.org/2016/10/06/freelancing-in-america-2016/) by Upwork and the Freelancers Union, more than one-third of workers in the United States were freelancers in 2016— some 55 million and counting. WeWork is determined to become the default home for a new generation of white-collar workers. It believes that **these budding entrepreneurs have no interest in the grey cubicles of the past**.
 
-<figure class="grid-figure">
+<figure class="grid-figure caption-right">
   <img src="/uploads/2018/02/FU_FreelancinginAmerica2016_Infographic.png">
   <figcaption class="align-self-end">
     <p>The full report by Upwork and the Freelancers Union can be <a href="https://blog.freelancersunion.org/2016/10/06/freelancing-in-america-2016/">found here</a>.</p>

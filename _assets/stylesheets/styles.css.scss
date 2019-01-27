@@ -396,15 +396,40 @@ body {
     }
     .grid-figure {
       margin: 50px 0;
-      @include breakpoint(desktop) {
-        display: grid;
-        grid-template-columns: 85% 15%;
-        grid-column-gap: 2.5%;
+      &.caption-right {
+        @include breakpoint(desktop) {
+          display: grid;
+          grid-template-columns: 85% 15%;
+          grid-column-gap: 2.5%;
+          width: 130%;
+          margin-top: 50px;
+          margin-right: 0;
+          margin-bottom: 50px;
+          margin-left: -17.5%;
+        }
+      }
+      &.caption-left {
+        @include breakpoint(desktop) {
+          display: grid;
+          grid-template-columns: 15% 85%;
+          grid-column-gap: 2.5%;
+          width: 130%;
+          margin-top: 50px;
+          margin-right: 0;
+          margin-bottom: 50px;
+          margin-left: -17.5%;
+          p {
+            text-align: right;
+          }
+        }
+      }
+      &.wide-image {
         width: 130%;
-        margin-top: 50px;
-        margin-right: 0;
-        margin-bottom: 50px;
         margin-left: -17.5%;
+        figcaption {
+          text-align: center;
+          margin-top: 20px;
+        }
       }
       img {
         @include breakpoint(desktop) {

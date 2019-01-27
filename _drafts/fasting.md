@@ -1,25 +1,31 @@
 ---
 layout: post
 title: Intermittent fasting
-sub_title: (and we like it)
 custom_type: post
 ---
 
-I used to think intermittent fasting was about starving yourself. It's not. Intermittent fasting is about understanding what hunger really is and controling when you eat so you can regain control of your life.
+I used to think intermittent fasting was about starving yourself. It's not. Intermittent fasting is about understanding what hunger really is and controling when you eat so you can take control of your life.
 
-Everything you know about fasting is probably wrong. In this post I'll share with you what I've learned about intermittent fasting and hopefully change your mind.
+- It's not about starving yourself
+- I do OMAD
+
+What you think you know about fasting is probably wrong. In this post I'll share with you what I've learned so far about intermittent fasting. If you're the type of person who's curious about biohacking and health sciences, you'll enjoy this post.
 
 ---
 
 **So what exactly is intermittent fasting and why is it good for you?**
 
-Fasting is different from starving in one important way. Control. Fasting is voluntary. Starving is not. They’re on opposite sides of the spectrum. With fasting you are in control of when you start and when you stop.
+Intermittent fasting is different from starving in one important way. Control. Fasting is voluntary. Starving is not. They’re on opposite sides of the spectrum. With fasting you are in control of when you start and when you stop. There isn't a right or wrong way to fast. It's all about you, your body, and your goals. Fasting also works very differently for each person.
 
-Everyone fasts everyday, technically. When you’re not eating you’re fasting. Consider breakfast. You’re breaking your fast, usually after 8 hours or more of sleep. In this case you’ll have been fasting for 8 hours or more before your next meal.
+Everyone fasts everyday, technically. When you’re not eating you’re basically fasting. Consider breakfast. When you eat breakfast you are breaking your fast, usually after 8 hours or more of sleep. In this case you will have been fasting for 8 hours or more before your next meal.
 
 Fasting has been practiced for centuries for various reasons. The reasons that matter most are the connections of fasting to health benefits, specifically anti-aging, weight lost, and the prevention and/or the reversal of Type II Diabetes, Insulin Resistance, PCOS, and more.
 
 The other hidden benefit to fasting is efficiency — efficiency of time and money. If you only eat once or twice a day, that’s a lot time and money being saved.
+
+There are several popular fasting protocols out there, but one of the most popular is the one meal a day protocol, often shortened to OMAD. This fasting protocol prescribes that you eat one meal a day, which breaks down to a a 23:1 fasting ratio, giving your body 23 hours each day to reap the benefits of a fasting lifestyle. If you're looking to burn fat, improve your mental resilience, and simplify the time you spend on food, eating one meal a day could be good for you.
+
+Most who follow the OMAD protocol do it everyday. If the average person following a traditional american diet eats 3 meals a day, and the average person practicing OMAD eats just one meal a day, they are literally eating 66% less food per day than someone following a traditional american diet. If you extrapolate that over the course of a year, that's 365 meals vs 1,095 meals. That's an extreme amount of efficiency in time and money alone, not to mention the health benefits.
 
 Fasting is bad for some though. The food industry. They lose money when you’re in greater control of what, when, and how much you eat. It's in their best interest for them to make you think you need to eat more often, drink sodas, not skip meals, or even have a snack between meals. They want you to believe if you don’t eat 3 meals a day, have an Apple for a snack, a candy bar because it’s right there at the counter or whatever their advertising and marketing says, then you’ll somehow be missing out on some due satisfaction. After all, “Snickers satisfies.”
 
