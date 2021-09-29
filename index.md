@@ -34,6 +34,6 @@ Where can you go from here?
 
 Thanks!
 
-<p class="signature">{% asset 'signature.png' %}</p>
+<p class="signature"><img src="/assets/signature.png"></p>
 
 Adam Stacoviak
