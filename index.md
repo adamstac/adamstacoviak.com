@@ -13,10 +13,10 @@ I started podcasting that same year as co-host of [The Web 2.0 Show](http://web2
 
 Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for developers. Here's a few you should check out:
 
-- [The Changelog](https://changelog.com/podcast)
-- [Brain Science](https://changelog.com/brainscience)
-- [Founders Talk](https://changelog.com/founderstalk)
-- [Go Time](https://changelog.com/gotime)
+- [The Changelog](https://changelog.fm/)
+- [Brain Science](https://brainscience.fm/)
+- [Founders Talk](https://founderstalk.fm/)
+- [Go Time](https://gotime.fm/)
 
 View the full lineup of podcasts we produce at [changelog.com/podcasts](https://changelog.com/podcasts).
 
