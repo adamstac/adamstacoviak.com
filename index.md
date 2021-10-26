@@ -11,14 +11,14 @@ I've been designing, developing, and leading products since 2006.
 
 I started podcasting that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
 
-Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for developers. Here's a few you should check out:
+Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for software developers. Here's a few pods you should check out:
 
 - [The Changelog](https://changelog.fm/)
-- [Brain Science](https://brainscience.fm/)
 - [Founders Talk](https://founderstalk.fm/)
-- [Go Time](https://gotime.fm/)
+- [Brain Science](https://brainscience.fm/)
+- [JS Party](https://jsparty.fm/)
 
-View the full lineup of podcasts we produce at [changelog.com/podcasts](https://changelog.com/podcasts).
+View our full lineup of shows at [changelog.com/podcasts](https://changelog.com/podcasts).
 
 Thousands upon thousands of developers visit our site, listen to our podcasts, and read our news everyday to keep up. [You should too](https://changelog.com/subscribe).
 
