@@ -7,6 +7,8 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 
 \- \- \-
 
+What am I doing now? See [my "now" page]({{ site.url | absolute_url }}/now).
+
 I've been designing, developing, and leading products since 2006.
 
 I started "podcasting" that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
