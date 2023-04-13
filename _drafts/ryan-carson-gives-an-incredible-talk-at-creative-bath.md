@@ -3,7 +3,7 @@ title: 7 Life Principles From Ryan Carson
 slug: 7-life-principles-from-ryan-carson
 date: 2012-09-17 07:42:13+00:00
 link_url: http://blog.teamtreehouse.com/guiding-principles-ryan-carson
-custom_type: link
+type: link
 ---
 
 I've had the honor of having Ryan on my podcasts [one](http://web20show.com/2010/02/episode-68-carsonified-ryan-carson/), [two](http://5by5.tv/founderstalk/4), [three](http://5by5.tv/founderstalk/27) times.

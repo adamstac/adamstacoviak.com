@@ -23,26 +23,26 @@ For those who have seen the Earth from space, and for the hundreds and perhaps t
 
 Check out this Ruby code:
 
-{% highlight ruby %}
+```ruby
 def foo
   puts 'foo'
 end
-{% endhighlight %}
+```
 
 Check out this Elixir code:
 
-{% highlight elixir %}
+```elixir
 (1..1000)
   |> Enum.map(fn (n) -> %{title: "title #{n}", body: to_string(n)} end)
   |> Enum.map(fn (params) -> Blog.Post.changeset(%Blog.Post{}, params) end)
   |> Enum.each(fn (changeset) -> Blog.Repo.insert(changeset) end)
-{% endhighlight %}
+```
 
 Check out this HTML code:
 
-{% highlight html %}
+```html
 <div class="flash">
   <p>This is a longer flash message in it's own paragraph. It ends up looking something like this. If we keep adding more text, it'll eventually wrap to a new line.</p>
   <p>And this is another paragraph.</p>
 </div>
-{% endhighlight %}
+```

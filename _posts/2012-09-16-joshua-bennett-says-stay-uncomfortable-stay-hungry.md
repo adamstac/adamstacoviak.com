@@ -2,7 +2,7 @@
 title: Stay Uncomfortable. Stay Hungry.
 slug: stay-uncomfortable-stay-hungry
 date: 2012-09-16 19:57:14
-custom_type: post
+type: post
 ---
 
 > Without hunger you have no opinions, no substance, no soul. I realize now why the great minds of history always appear ‘mad’ or ‘angry’ — they were hungry. Hungry for change and improvement.

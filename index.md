@@ -3,15 +3,17 @@ layout: home
 excerpt: This is a personal blog written by Adam Stacoviak about podcasting, open source, development, technology, and whatever else he's curious about.
 ---
 
-**Hello, I'm Adam Stacoviak.**
+# 👋 I'm Adam Stacoviak.
 
-\-\-\-
+\- \- \-
 
 I've been designing, developing, and leading products since 2006.
 
-I started podcasting that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
+I started "podcasting" that same year as co-host of [The Web 2.0 Show](http://web20show.com/).
 
-Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish news and podcasts for software developers. Here's a few pods you should check out:
+Now I'm the Founder and Editor-in-Chief of [Changelog.com](https://changelog.com/) where we publish world-class podcasts for software developers.
+
+Here's a few of our pods you should check out:
 
 - [The Changelog](https://changelog.fm/)
 - [Founders Talk](https://founderstalk.fm/)
@@ -34,6 +36,6 @@ Where can you go from here?
 
 Thanks!
 
-<p class="signature"><img src="/assets/signature.png"></p>
+<p class="signature"><img src="{{ "/assets/images/signature.png" | relative_url }}"></p>
 
 Adam Stacoviak

@@ -2,9 +2,9 @@
 title: It Doesn't Feel Like Work
 slug: it-doesnt-feel-like-work
 date: 2012-12-11 21:20:00
-custom_type: link
+type: link
 link_url: http://www.youtube.com/watch?feature=player_detailpage&v=rIXx617xVMo#t=326s
-custom_type: link
+type: link
 ---
 
 Let's face it -- when you're doing it your own way, _it doesn't feel like work._

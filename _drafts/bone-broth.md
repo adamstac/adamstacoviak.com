@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Bone Broth
-custom_type: post
+type: post
 ---
-
-
 <figure class="grid-figure wide-image">
   <img src="/uploads/2019/03/JPEG image-1D2FA53A916F-1.jpeg">
   <figcaption>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cold Brew
-custom_type: post
+type: post
 ---
 
 Cold brewed coffee is smooth and less acidic.

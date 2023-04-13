@@ -3,7 +3,7 @@ title: Done is better than perfect
 slug: done-is-better-than-perfect
 date: 2012-02-06 09:49:39+00:00
 link_url: http://benbarry.com/project/facebook-propaganda-posters
-custom_type: link
+type: link
 ---
 
 <img src="/uploads/2012/02/done-is-better-than-perfect.png" class="wide border" title="Done is better than perfect">

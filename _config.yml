@@ -1,4 +1,19 @@
----
+# Where things are
+source : .
+destination : ./_site/
+layouts_dir : _layouts
+# collections_dir : .
+# plugins_dir : _plugins # takes an array of strings and loads plugins in that order
+# data_dir : _data
+# includes_dir : _includes
+sass:
+  sass_dir: _sass
+collections:
+  posts:
+    output : true
+post:
+  extension: md
+
 name: Adam Stacoviak
 email: adam@stacoviak.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -8,35 +23,38 @@ twitter_username: adamstac
 github_username:  adamstac
 
 # Build settings
-permalink: /:title
+permalink: /:title/
 
 # Markdown Rendering
 markdown: kramdown
 highlighter: rouge
+markdown_ext: md
 kramdown:
-  input: GFM
-markdown_ext:  markdown,mkdown,mkdn,mkd,md,mdown
+  auto_ids          : true
+  entity_output     : as_char
+  toc_levels        : [1, 2, 3, 4, 5, 6]
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  input             : GFM
+  hard_wrap         : false
+  footnote_nr       : 1
+  show_warnings     : false
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-assets
 
-# Build Info
-assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  compress:
-    css: false
-  sources:
-    # - _assets/fonts
-    # - _assets/javascripts
-    - _assets/images
-    - _assets/stylesheets
-post:
-  extension: md
+# jekyll-feed
+feed:
+  path: /feed.xml
 
-# Defaults
+# jekyll-assets
+assets:
+  css_compressor: scss
+  sources:
+    - _sass/stylesheets
+
+# Default teamplates
 defaults:
   -
     scope:
@@ -63,7 +81,26 @@ exclude:
   - package.json
   - Rakefile
   - README.md
+  - fly
+  - Dockerfile
+  - docker-compose.yml
 
-# Build inclusions
-include:
-  - _redirects
+# jekyll-compose
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      title:
+      slug:
+      date:
+      type: post
+      description:
+    posts:
+      title:
+      slug:
+      date:
+      type: post
+      description:
+      category:
+      tags:
+      published: false
+      sitemap: false

@@ -1,7 +1,7 @@
 ---
 title: We're paying a premium for co-workers
 sub_title: (and we like it)
-custom_type: post
+type: post
 date: 2018-02-22 10:40:00
 ---
 

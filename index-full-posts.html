@@ -5,7 +5,7 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 
 <div class="posts">
 
-  <ul class="type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+  <ul class="type-post format-{% if post.type %}{{ post.type }}{% endif %}">
 
     {% for post in site.posts %}
 
@@ -22,10 +22,10 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 <div class="posts">
 
   {% for post in paginator.posts %}
-    <div class="type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+    <div class="type-post format-{% if post.type %}{{ post.type }}{% endif %}">
       <article class="post">
 
-        {% if post.custom_type == 'post' %}
+        {% if post.type == 'post' %}
           <header class="post-header">
             <h2 class="post-title">
               <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
@@ -36,7 +36,7 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
             {{ post.content }}
           </div>
         
-        {% elsif post.custom_type == 'link' %}
+        {% elsif post.type == 'link' %}
           <header class="post-header">
             <h2 class="post-title">
                 <a href="{{ post.link_url }}">{{ post.title }}</a> <span class="post-arrow"><a href="{{ post.url }}" class="post-permalink" rel="bookmark">#</a></span>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intermittent fasting
-custom_type: post
+type: post
 ---
 
 I used to think intermittent fasting was about starving yourself. It's not. Intermittent fasting is about understanding what hunger really is and controling when you eat so you can take control of your life.

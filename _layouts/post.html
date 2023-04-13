@@ -3,9 +3,9 @@ layout: layout_post
 ---
 
 <article class="post post-single">
-  <div class="format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
+  <div class="format-{% if page.type %}{{ page.type }}{% endif %}">
 
-  {% if page.custom_type == 'post' %}
+  {% if page.type == 'post' %}
 
   <header class="post-header">
     <h1 class="post-header__title">{{ page.title }}</h1>
@@ -19,7 +19,7 @@ layout: layout_post
       <p><a href="{{ site.url}}/blog">Read more posts like this.</a></p>
     </div>
   
-  {% elsif page.custom_type == 'link' %}
+  {% elsif page.type == 'link' %}
 
   <header class="post-header">
       <h1 class="post-title">

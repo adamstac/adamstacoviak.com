@@ -2,7 +2,7 @@
 title: A founders' values and principles define the company's culture
 slug: a-founders-values-and-principles-define-the-companys-culture
 date: 2012-09-16 19:30:25+00:00
-custom_type: post
+type: post
 ---
 
 Where does a company's culture come from?

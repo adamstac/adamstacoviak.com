@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My French Press method
-custom_type: post
+type: post
 date: 2019-05-06 13:08:00
 ---
 

@@ -2,9 +2,9 @@
 title: Spoiled by Retina
 slug: spoiled-by-retina
 date: 2012-12-08 08:44:25+00:00
-custom_type: link
+type: link
 link_url: http://www.macgasm.net/2012/12/07/the-ipad-mini-is-exactly-what-everyone-says-it-is-except-when-it-isnt/
-custom_type: link
+type: link
 ---
 
 Joshua Schnell:

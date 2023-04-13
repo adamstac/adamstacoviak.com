@@ -1,9 +1,9 @@
 ---
-custom_type: post
+type: post
 layout: post
 title: Spending time
+date: 2013-01-24 00:00 +0000
 ---
-
 There's a reason why time is often referred to as spent.
 
 You might hear yourself, or someone say something like this.

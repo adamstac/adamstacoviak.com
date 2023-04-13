@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keto coffee
-custom_type: post
+type: post
 date: 2019-01-27 2:15:00
 ---
 

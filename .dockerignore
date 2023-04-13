@@ -1,0 +1,15 @@
+# flyctl launch added from .gitignore
+**/.DS_Store
+**/.asset-cache
+**/.bundle
+**/.jekyll-cache
+**/.sass-cache
+**/_site
+**/node_modules
+**/Gemfile.lock
+
+
+# flyctl launch added from .jekyll-cache/.gitignore
+# ignore everything in this directory
+.jekyll-cache/**/*
+fly.toml

@@ -1,7 +1,7 @@
 ---
 title: Choose Your Vendors Wisely
 date: 2016-06-02 00:25:00
-custom_type: post
+type: post
 ---
 
 This isn't a post I wanted to write. But time and time again, I've been burned by people I've trusted to help me build my business.

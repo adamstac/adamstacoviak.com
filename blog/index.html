@@ -7,18 +7,30 @@ excerpt: This is a personal blog written by Adam Stacoviak about podcasting, ope
 
   {% for post in site.posts %}
 
-    {% if post.custom_type == 'post' %}
+    {% if post.type == 'post' %}
+    {% if post.draft %}
+      <li class="post format-post draft">
+    {% else %}
     <li class="post format-post">
+    {% endif %}
       <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
     </li>
 
-    {% elsif post.custom_type == 'link' %}
+    {% elsif post.type == 'link' %}
+    {% if post.draft %}
+      <li class="post format-link draft">
+    {% else %}
     <li class="post format-link">
+    {% endif %}
       <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<span class="post-arrow"><a href="{{ post.link_url }}" class="post-permalink" rel="bookmark">~></a></span>
     </li>
 
     {% else %}
+    {% if post.draft %}
+      <li class="post format-none draft">
+    {% else %}
     <li class="post format-none">
+    {% endif %}
       <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date: "%Y-%m-%d" }}</time> &ndash; <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
     </li>
 

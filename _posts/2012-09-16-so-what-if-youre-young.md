@@ -3,7 +3,7 @@ title: So what if you’re young.
 slug: so-what-if-youre-young
 date: 2012-09-16 19:03:54+00:00
 link_url: http://blog.erondu.com/age-is-just-a-number-anyone-can-build
-custom_type: link
+type: link
 ---
 
 I'm sure you've heard this saying before, "age is just a number."

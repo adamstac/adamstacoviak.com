@@ -3,7 +3,7 @@ title: Change feelings. Not the facts.
 slug: change-feelings-not-the-facts
 date: 2012-11-21 07:42:43+00:00
 link_url: http://sethgodin.typepad.com/seths_blog/2012/10/the-only-purpose-of-customer-service.html
-custom_type: link
+type: link
 ---
 
 > The best measurement of customer support is whether, after the interaction, the customer would recommend you to a friend. Time on the line, refunds given or the facts of the case are irrelevant. The feelings are all that matter, and changing feelings takes humanity and connection, not cash.

@@ -1,9 +1,9 @@
 ---
-custom_type: post
+type: post
 title: You have to show up
+slug: showup
+date: 2012-02-08
 ---
-
-
 
 If you don't show up, you can't find a place to belong.
 
