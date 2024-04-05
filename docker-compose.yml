@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   jekyll:
@@ -11,5 +11,5 @@ services:
     volumes:
       - .:/usr/src/app
     # command: build
-    # command: serve --watch --livereload --drafts --host 0.0.0.0
-    command: serve --watch --livereload --host 0.0.0.0
+    command: serve --watch --livereload --drafts --host 0.0.0.0
+    # command: serve --watch --livereload --host 0.0.0.0
