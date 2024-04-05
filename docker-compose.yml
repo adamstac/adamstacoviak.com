@@ -3,13 +3,15 @@ version: "3.8"
 services:
   jekyll:
     container_name: adamstacoviak-com
-    build: .
+    build:
+      context: .
+      args:
+        ARCH: ${ARCH:-arm64v8} # Defaults to AMD64 but can be overridden
     image: adamstacoviak-com
     ports:
       - "4000:4000"
       - "35729:35729"
     volumes:
       - .:/usr/src/app
-    # command: build
     command: serve --watch --livereload --drafts --host 0.0.0.0
     # command: serve --watch --livereload --host 0.0.0.0
