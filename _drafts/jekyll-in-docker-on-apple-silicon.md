@@ -3,10 +3,10 @@ layout: post
 title: Jekyll in Docker on Apple Silicon
 type: post
 slug: jekyll-in-docker-on-apple-silicon
-date: 2023-03-27 22:52:00
+date: 2023-04-13 13:50:00
 ---
 
-After years and years (and years) of failing to blog consistently, I have concluded that **ONE of many reasons** is due to the need to maintain a local development environment for running Jekyll.
+After years and years (and years) of failing to update this site consistently, I have concluded that **ONE of the many reasons** is due to the need to maintain a local development environment for running Jekyll.
 
 Maintaining a local development environment for Jekyll means managing Ruby versions, Ruby Gems, and all the local dependencies that come with it. If you're not activley maintaing this applicaiton (your blog) it can quickly become quite a loborius task.
 
@@ -14,7 +14,7 @@ Then there's the issue of different projects having different Ruby dependencies.
 
 Then there's the obvious Ruby Gems namespace collisions that would happen. This project requires that version, and that project requires this version. RVM offers compartmentalized independent ruby setups which separates (and self-contains) ruby, gems, and irb. But again, over time I would forget how things were setup and it was simply just to painful.
 
-Docker simplifies all of this.
+**Docker simplifies all of this.**
 
 ## Jekyll + Docker
 

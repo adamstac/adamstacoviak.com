@@ -83,7 +83,7 @@ body {
   // padding: 50px 0 80px 0;
 
   @include breakpoint(desktop) {
-    width: 700px;
+    width: 750px;
   }
 }
 
@@ -135,7 +135,7 @@ body {
   .post {
     margin-bottom: 15px;
     a:hover {
-      text-decoration: underline; 
+      text-decoration: underline;
     }
   }
   .format-post > a {
@@ -272,7 +272,7 @@ body {
       font-weight: bold;
       line-height: 1.25;
       margin-bottom: 5px;
-      
+
       a:hover {
           text-decoration: underline;
       }
@@ -380,8 +380,8 @@ body {
 
     // Lists
     ul, ol { margin-bottom: 20px; }
-    ul li { list-style: disc inside; }
-    ol li { list-style: decimal inside; }
+    ul li { list-style: disc outside; }
+    ol li { list-style: decimal outside; }
 
     // embeds
     img {
