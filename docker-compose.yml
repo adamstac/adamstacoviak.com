@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        ARCH: ${ARCH:-arm64v8} # Defaults to AMD64 but can be overridden
+        ARCH: ${ARCH:-arm64v8} # Defaults to arm64v8 but can be overridden
     image: adamstacoviak-com
     ports:
       - "4000:4000"
