@@ -17,3 +17,9 @@ docker-compose exec jekyll bundle exec jekyll rename _drafts/asdf.md "New draft 
 ```bash
 docker-compose exec jekyll bundle exec jekyll publish _drafts/asdf.md --date 2014-03-26
 ```
+
+https://developer.1password.com/docs/cli/get-started/
+
+https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+
+https://blog.1password.com/1password-ssh-agent/
