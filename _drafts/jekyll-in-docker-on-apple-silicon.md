@@ -8,6 +8,8 @@ date: 2023-04-13 13:50:00
 
 After years and years (and years) of failing to update this site consistently, I have concluded that **ONE of the many reasons** is due to the need to maintain a local development environment for running Jekyll.
 
+## No more managing Ruby versions
+
 Maintaining a local development environment for Jekyll means managing Ruby versions, Ruby Gems, and all the local dependencies that come with it. If you're not activley maintaing this applicaiton (your blog) it can quickly become quite a loborius task.
 
 Then there's the issue of different projects having different Ruby dependencies. In the past I used [rvm](https://rvm.io/) to manage Ruby versions, then in more recent years I used [rbenv](https://github.com/rbenv/rbenv). Over time I would forget which version(s) of Ruby I had installed and natually I'd have to consult the docs of either of those projects to recall how to manage Ruby.
@@ -29,6 +31,7 @@ Running Jekyll in Docker on Apple Silicon has several benefits:
 ---
 
 ### Consistency
+
 Docker provides a consistent environment for running Jekyll across different plaforms, including Apple Silicon. It ensures that dependencies, configurations, and runtime en ronments are the same, which helps eliminate discrepancies between development, testing, an production.
 
 ### Isolation
@@ -57,7 +60,7 @@ Overall, running Jekyll in Docker on Apple Silicon streamlines the development p
 
 I'll explain each line of the `Dockerfile` you provided:
 
-1. `FROM arm64v8/ruby:2.7`: This line specifies the base image for your Docker container. In th  case, it's using the official Ruby 2.7 image built for ARM64 architecture.
+1. `FROM arm64v8/ruby:2.7`: This line specifies the base image for your Docker container. In th case, it's using the official Ruby 2.7 image built for ARM64 architecture.
 2. `WORKDIR /usr/src/app`: This line sets the working directory for the container to `/usr/sr app`. All the subsequent commands in the Dockerfile will be executed relative to this di ctory.
 3. `RUN apt-get update -qq && \`: This line updates the package list for the container's pa age manager in a quiet mode (without displaying progress).
 4. `apt-get install -y build-essential \`: This line installs necessary build tools and li aries required to compile and build software.
@@ -66,10 +69,10 @@ I'll explain each line of the `Dockerfile` you provided:
 7. `nodejs`: This line installs Node.js, which might be required for some Jekyll plugins or ot r JavaScript-related tasks.
 8. `COPY Gemfile* ./`: This line copies the Gemfile and Gemfile.lock (if present) from the host machine to the container's working directory.
 9. RUN gem install bundler && \`: This line installs the Bundler gem, which is a dependency ma er for Ruby applications.
-10 `bundle install`: This line installs the gems specified in the Gemfile using Bundler.
-11 `COPY . .`: This line copies the rest of the application code from the host machine to th ontainer's working directory.
-12 `EXPOSE 4000`: This line exposes port 4000, which is the default port Jekyll uses to serve the site.
-13. `ENTRYPOINT ["bundle", "exec", "jekyll"]`: This line sets the entrypoint for the container. When the container is run, it will execute the command `bundle exec jekyll`, which runs Jekyll using the bundled gems.
+   10 `bundle install`: This line installs the gems specified in the Gemfile using Bundler.
+   11 `COPY . .`: This line copies the rest of the application code from the host machine to th ontainer's working directory.
+   12 `EXPOSE 4000`: This line exposes port 4000, which is the default port Jekyll uses to serve the site.
+10. `ENTRYPOINT ["bundle", "exec", "jekyll"]`: This line sets the entrypoint for the container. When the container is run, it will execute the command `bundle exec jekyll`, which runs Jekyll using the bundled gems.
 
 This Dockerfile sets up a Ruby environment with Jekyll and its dependencies, and prepares your application for building and serving using Jekyll.
 
@@ -106,7 +109,7 @@ ENTRYPOINT ["bundle", "exec", "jekyll"]
 ## docker-compose.yml file
 
 ```yml
-version: '3.8'
+version: "3.8"
 
 services:
   jekyll:
@@ -125,12 +128,12 @@ services:
 
 This is a `Gemfile` that lists out the gems required for a Jekyll website or application. Here's what it does:
 
-- The first line sets the source of the gems to the RubyGems repository.    
+- The first line sets the source of the gems to the RubyGems repository.
 - The second line specifies the version of Jekyll to be installed. In this case, it's `4.2`, and the `~>` symbol indicates that only minor version updates are allowed (e.g. `4.3`, `4.4`, etc.), but not major version updates (e.g. `5.x`).
 - The rest of the gems are listed inside a `group` block, which is used to group gems that are only required in certain environments or configurations. In this case, all of the gems are part of the `:jekyll_plugins` group, which indicates that they are plugins for the Jekyll static site generator.
 
 The gems listed inside the `:jekyll_plugins` group are:
-    
+
 - `jekyll-sitemap` - a Jekyll plugin that generates a sitemap.xml file for your website.
 - `jekyll-feed` - a Jekyll plugin that generates an RSS feed for your website.
 - `jekyll-seo-tag` - a Jekyll plugin that generates meta tags for search engine o mization (SEO).

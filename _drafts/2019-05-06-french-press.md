@@ -5,11 +5,19 @@ type: post
 date: 2019-05-06 13:08:00
 ---
 
-The French Press brew method is one of the easiest brew methods to execute and master. It's a simple process of beans, grind, water to coffee ratio, and time. Full immersion is the unique character at play here and is what sets this method apart from other methods. In this post, I share my process and exact recipe — end to end.
+The French Press brew method is one of the easiest brew methods to execute and master. It's a simple process of the right beans with a coarse grind, water to coffee ratio and time. Full immersion is the unique characteristic for brewing with a French Press and is what sets this method apart from all the other methods. In this post, I share my process and the exact recipe I use — end to end.
 
-The key to a good French Press brew is to know your dose ratio. I like to use a 16:1 ratio. That's 16 parts beans to 1 part water. For example, I weigh out 20 grams of beans and grind them to a coarse grind, then pour 320 grams of water. With the French Press you're going to get a more full bodied brew which will likely include a bit of sedement in the bottom of your cup. The mesh filter of the press does a great job of seperating grinds from coffee on plunge, but the reason folks reach for this method if for its ease of brew first, and its taste second.
+## Good French Press coffee
 
-I'm also a fan of doing a 30-45 second bloom before the full immersion pour to brew. Once the bloom is complete I slowly pour the remaining water amount and sit back and wait for the brew to complete.
+The key to good French Press coffee is the perfect ratio of water to coffee.
+
+My methed is uses a 16:1 ratio of beans to coffee. That's 16 parts beans to 1 parts water.
+
+Start by weighing out 20 grams of beans, then grind them to a coarse grind. Then, heat a pot of water to 204 degrees (f). Pour 40 grams of water to start the brew process. This is known as blooming the coffee. Bloom for 30-45 seconds bloom before the full immersion pour to brew. Once the bloom is complete, slowly pour 280 grams of water, then gently stir for 30 seconds. Sit back and wait for 3 minutes and 30 seconds for the brew to complete. End-to-end the brew process should be around 4 minutes and 30 seconds.
+
+## What to expect
+
+With the French Press brew method you're going to get a more full bodied brew of coffee which will likely include a bit of sedement in the bottom of your cup. The mesh filter of the press does a great job of seperating grinds from coffee on plunge, but the reason folks reach for this method if for the simplicity of the brew method and the more full bodied taste.
 
 Below are my full instructions as well as suggested gear and beans.
 
@@ -18,6 +26,16 @@ Below are my full instructions as well as suggested gear and beans.
 ## The Recipe
 
 Produces a single serving, 300 gram yeild. Double or triple if you're brewing more than a single serving.
+
+**Step 1:** Start by weighing out 20 grams of beans, then grind them to a coarse grind.
+
+**Step 2:** Heat a pot of water to 204 degrees (f).
+
+**Step 3:** Pour 40 grams of water to start the brew process with what is know as blooming the coffee. Bloom for 30-45 seconds bloom before the full immersion pour to brew.
+
+**Step 4:** Once the bloom is complete, slowly pour 280 grams of water, then gently stir for 30 seconds.
+
+**Step 5:** Sit back and wait for 3 minutes and 30 seconds for the brew to complete. End-to-end the brew process should be around 4 minutes and 30 seconds.
 
 - Weigh out 20 grams of good coffee.
 - Prepare your coffee as a medium grind and set aside.
